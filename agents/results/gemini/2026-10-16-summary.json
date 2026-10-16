@@ -1,0 +1,163 @@
+{
+  "agent": "Gemini",
+  "date": "2026-10-16",
+  "dataset": "Personal Career Dataset v1.0",
+  "independent_run": true,
+  "cross_review": false,
+  "source": "User-provided description of Gemini result in import request; original report not received",
+  "metadata_verification": "USER_REPORTED; not checked against original report",
+  "import_status": "AWAITING_ORIGINAL_REPORT",
+  "report_saved": false,
+  "career_ranking": [
+    {
+      "rank": 1,
+      "career": "AI Product Manager",
+      "score": 88.5,
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 2,
+      "career": "Product Strategy / B2B Solution Architect",
+      "score": 82.0,
+      "confidence": "HIGH"
+    },
+    {
+      "rank": 3,
+      "career": "HCI / Human-AI Interaction Researcher",
+      "score": 79.5,
+      "confidence": "MEDIUM"
+    },
+    {
+      "rank": 4,
+      "career": "UX Researcher",
+      "score": 73.0,
+      "confidence": "MEDIUM"
+    },
+    {
+      "rank": 5,
+      "career": "Startup Founder",
+      "score": 70.0,
+      "confidence": "LOW"
+    }
+  ],
+  "hypothesis_review": {
+    "H1": {
+      "decision": "MAINTAIN"
+    },
+    "H2": {
+      "decision": "MAINTAIN"
+    },
+    "H3": {
+      "decision": "REFINE",
+      "hypothesis": "고도로 분업된 대기업보다는 자율성이 높은 Product 조직이 적합하나, 완전 무구조 상태의 Solo Startup보다는 명확한 B2B 문제, 책임 구조, 빠른 피드백 루프가 존재하는 초기~중기 Tech/Product 조직에서 1→10 마찰을 극복하고 성과를 낼 가능성이 높다."
+    },
+    "H4": {
+      "source_id": "H4",
+      "namespaced_id": "gemini:H4",
+      "status": "PROPOSED_BY_GEMINI",
+      "verification_status": "UNVERIFIED",
+      "hypothesis": "사용자는 B2C 감성 서비스보다 명확한 ROI와 프로세스 효율화가 눈에 보이는 B2B / AI Automation 제품 영역에서 더 빠른 Decision Commitment와 성과를 창출할 것이다."
+    }
+  },
+  "interpretations": [
+    {
+      "id": "G1",
+      "text": "0→1 탐색·빌딩 능력과 1→10 지속 성장 능력 사이에 차이가 있을 수 있음"
+    },
+    {
+      "id": "G2",
+      "text": "Industrial Engineering × Psychology × AI의 융합적 프로필이 존재할 가능성"
+    },
+    {
+      "id": "G3",
+      "text": "선택지가 많고 불확실성이 높을 때 Decision Commitment Friction이 발생할 가능성"
+    },
+    {
+      "id": "G4",
+      "text": "Exploration Drive와 Stability / Risk Consideration 간 긴장이 존재할 가능성"
+    },
+    {
+      "id": "G5",
+      "text": "Skill Confidence는 높지만 Career Direction Confidence가 상대적으로 낮은 Confidence Paradox가 존재할 가능성"
+    }
+  ],
+  "interpretation_source": "Gemini interpretation, as described by user; not Personal Dataset FACT",
+  "execution_profile": {
+    "source": "Gemini interpretation",
+    "exploration_execution": "VERY HIGH",
+    "sustained_execution": "CONDITIONAL / CONTEXT-DEPENDENT",
+    "decision_execution": "HESITANT UNDER HIGH DOWNSIDE",
+    "baseline_update": false
+  },
+  "recommendation": {
+    "explore_now": [
+      "AI Product Manager",
+      "Product Strategy / B2B Solution Architect"
+    ],
+    "keep_as_option": [
+      "HCI / Human-AI Interaction Researcher",
+      "UX Researcher"
+    ],
+    "deprioritize_for_now": [
+      "Solo / Early-stage Startup Founder",
+      "Pure Academic Psychology Researcher"
+    ]
+  },
+  "market_evidence_verified": false,
+  "market_evidence": {
+    "classification": "Agent-generated market interpretation",
+    "verification_status": "UNVERIFIED",
+    "source": "Gemini",
+    "reported_runtime_notice": "MARKET EVIDENCE SYNTHESIS (SEARCH RESTRICTED BY RUNTIME DIRECTIVE)"
+  },
+  "micro_experiments": [
+    {
+      "id": "gemini:E1",
+      "career": "AI Product Manager",
+      "task": "B2B / 생산성 문제를 선정해 LLM Agent 자동화 기능 2페이지 PRD 작성",
+      "duration_hours": 3,
+      "status": "PROPOSED"
+    },
+    {
+      "id": "gemini:E2",
+      "career": "Product Strategy",
+      "task": "B2B AI 기업 1곳의 TAM / SAM / SOM, Target Customer, GTM을 분석한 1페이지 Strategy Memo",
+      "duration_hours": 2.5,
+      "status": "PROPOSED"
+    },
+    {
+      "id": "gemini:E3",
+      "career": "HCI / Human-AI Interaction",
+      "task": "Human-AI 논문 1편의 요약·한계·후속 질문·실험 설계를 담은 1페이지 Research Proposal",
+      "duration_hours": 4,
+      "status": "PROPOSED"
+    },
+    {
+      "id": "gemini:decision",
+      "task": "2027 글로벌 경험 대안: 해외 인턴십 / 해외 학술·Bootcamp / 국내 취업 집중 중 선택 후 24시간 내 공인영어시험 접수 등 행동 제안",
+      "status": "PROPOSED"
+    }
+  ],
+  "unknowns": [
+    "SQL·Python·데이터 분석·통계·영어 Speaking / Writing",
+    "남은 학점·GPA·졸업 요건",
+    "자취·해외·교육비의 재정적 마지노선",
+    "B2B vs B2C 선호도"
+  ],
+  "next_actions": [
+    {
+      "task": "AI PM PRD 작성",
+      "proposed_deadline": "2026-10-19"
+    },
+    {
+      "task": "공인 어학시험 접수",
+      "proposed_deadline": "2026-10-18"
+    },
+    {
+      "task": "AI PM 또는 Product Strategy 현직자 커피챗 신청",
+      "proposed_deadline": "2026-10-22"
+    }
+  ],
+  "action_status": "Gemini proposals only; not adopted or performed",
+  "scope": "Index only; no reanalysis, score changes, cross review, market verification, or official hypothesis adoption. Gemini H4 does not replace existing Codex H4."
+}

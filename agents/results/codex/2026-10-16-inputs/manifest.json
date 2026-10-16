@@ -1,0 +1,14 @@
+{
+  "dataset_version": "1.0",
+  "date": "2026-10-16",
+  "git_commit": "a3f46dd6f5ac0aa0bf8412d8227802dc2fe8c7fd",
+  "files": {
+    "data/personal-career-dataset.md": "919dcc638ba7b6d6882797ae62681a1453371e8ccd69216760c19450839364c2",
+    "data/personal-career-dataset.yaml": "b3a49ddf7f81b22acec4265932924c1e3d7925f32c97b71ee44d7d5c147f5c98",
+    "data/career-baseline.yaml": "093a86aa289d703c353dd865b5029de4ed9ef76fed41d2d6d93690af0773732c",
+    "data/friction-dataset.yaml": "b1ae5b1a68dcfdbd1de31f3c54abb43a1e3c1494994fac56cddfc01efc0ce95c",
+    "agents/career-agent-mission.md": "a61848b88d45b04bdf05dbefc53c64c31469671e685aaf376f3768006bc65a3b",
+    "agents/evaluation-framework.md": "3b87ddba24d82678f133419366fa393688bc7e8de8db0d6aab6143e6917ed73c",
+    "agents/report-template.md": "c50edecd28fc6e801a4c5a8220cb98794e5d96edc07d4d381cc4ef1d960c928a"
+  }
+}

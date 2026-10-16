@@ -1,0 +1,83 @@
+{
+  "scale": {
+    "min": 1,
+    "max": 10
+  },
+  "measured_at": {
+    "t0": "2026-10-16",
+    "t1": null
+  },
+  "career_baseline": {
+    "career_direction_confidence": {
+      "score": 6,
+      "t0": 6,
+      "t1": null,
+      "question": "나는 현재 내가 어느 진로 방향으로 가고 싶은지 알고 있다.",
+      "higher_is_better": true
+    },
+    "job_understanding": {
+      "score": 8,
+      "t0": 8,
+      "t1": null,
+      "question": "나는 관심 직무가 실제로 어떤 일을 하는지 알고 있다.",
+      "higher_is_better": true
+    },
+    "self_understanding": {
+      "score": 8,
+      "t0": 8,
+      "t1": null,
+      "question": "나는 나의 강점, 약점, 흥미, 가치관을 설명할 수 있다.",
+      "higher_is_better": true
+    },
+    "skill_confidence": {
+      "score": 10,
+      "t0": 10,
+      "t1": null,
+      "question": "나는 목표 직무에 필요한 역량을 갖출 수 있다고 생각한다.",
+      "higher_is_better": true
+    },
+    "execution_motivation": {
+      "score": 10,
+      "t0": 10,
+      "t1": null,
+      "question": "나는 진로 탐색을 실제 행동으로 옮기고 싶은 동기가 있다.",
+      "higher_is_better": true
+    },
+    "career_execution_clarity": {
+      "score": 8,
+      "t0": 8,
+      "t1": null,
+      "question": "나는 앞으로 무엇을 해야 하는지 구체적으로 알고 있다.",
+      "higher_is_better": true
+    },
+    "global_career_confidence": {
+      "score": 10,
+      "t0": 10,
+      "t1": null,
+      "question": "나는 글로벌 기업 또는 해외 진로를 현실적인 선택지로 느낀다.",
+      "higher_is_better": true
+    },
+    "career_anxiety": {
+      "score": 5,
+      "t0": 5,
+      "t1": null,
+      "question": "나는 현재 진로에 대한 불확실성과 불안을 느낀다.",
+      "higher_is_better": false
+    }
+  },
+  "career_values": {
+    "stability": {
+      "score": null
+    },
+    "salary": {
+      "score": null
+    },
+    "work_life_balance": {
+      "score": null
+    },
+    "social_impact": {
+      "score": null
+    }
+  },
+  "source": "FACT — Self Report; 사용자 제공 2026-10-16; 역량의 객관적 검증 아님"
+}

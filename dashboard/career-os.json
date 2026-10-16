@@ -29,12 +29,12 @@
         {
           "id": "friction",
           "label": "실패·비선호 경험 입력",
-          "done": false
+          "done": true
         },
         {
           "id": "baseline",
           "label": "Career Baseline 평가",
-          "done": false
+          "done": true
         },
         {
           "id": "mission",
@@ -54,7 +54,7 @@
         {
           "id": "codex",
           "label": "Codex Career Agent 실행",
-          "done": false
+          "done": true
         },
         {
           "id": "claude",
@@ -124,29 +124,39 @@
     {
       "id": "H1",
       "career": "Product Manager / UX Researcher",
-      "hypothesis": "사용자는 UX Researcher보다 Product Manager 역할에서 더 높은 몰입과 성과를 경험할 수 있다.",
+      "hypothesis": "PM 초기 문제정의·기획과 UXR 조사·종합을 비교하고 PM 지속 운영은 별도 검증",
       "score": null,
-      "confidence": null,
-      "status": "NEW",
+      "confidence": "LOW",
+      "status": "REFINE",
       "evidenceCount": 0,
       "experimentCount": 0
     },
     {
       "id": "H2",
       "career": "Human-AI Interaction / HCI",
-      "hypothesis": "사용자는 순수 심리 연구보다 Human-AI Interaction 또는 HCI처럼 심리학과 기술이 연결된 영역에 더 적합할 수 있다.",
+      "hypothesis": "심리×기술 접점의 관심과 연구 수행 적합성을 분리해 검증",
       "score": null,
-      "confidence": null,
-      "status": "NEW",
+      "confidence": "LOW",
+      "status": "REFINE",
       "evidenceCount": 0,
       "experimentCount": 0
     },
     {
       "id": "H3",
       "career": "Startup / Autonomous Product Team",
-      "hypothesis": "사용자는 고도로 역할이 분업된 조직보다 초기 스타트업 또는 높은 자율성을 가진 Product 조직에서 더 높은 만족도를 경험할 수 있다.",
+      "hypothesis": "초기 스타트업 우위는 미확인; 자율성·리뷰 주기·책임 경계·운영 지원의 조합을 검증",
       "score": null,
-      "confidence": null,
+      "confidence": "LOW",
+      "status": "WEAKEN",
+      "evidenceCount": 0,
+      "experimentCount": 0
+    },
+    {
+      "id": "H4",
+      "career": "Execution Conditions",
+      "hypothesis": "탐색·지속·결정 실행은 환경 조건에 따라 다른 결과를 보일 수 있다.",
+      "score": null,
+      "confidence": "LOW",
       "status": "NEW",
       "evidenceCount": 0,
       "experimentCount": 0
@@ -157,7 +167,7 @@
       "id": "career_direction_confidence",
       "metric": "Career Direction Confidence",
       "question": "나는 현재 내가 어느 진로 방향으로 가고 싶은지 알고 있다.",
-      "t0": null,
+      "t0": 6,
       "t1": null,
       "higherIsBetter": true
     },
@@ -165,7 +175,7 @@
       "id": "job_understanding",
       "metric": "Job Understanding",
       "question": "나는 관심 직무가 실제로 어떤 일을 하는지 알고 있다.",
-      "t0": null,
+      "t0": 8,
       "t1": null,
       "higherIsBetter": true
     },
@@ -173,7 +183,7 @@
       "id": "self_understanding",
       "metric": "Self Understanding",
       "question": "나는 나의 강점, 약점, 흥미, 가치관을 설명할 수 있다.",
-      "t0": null,
+      "t0": 8,
       "t1": null,
       "higherIsBetter": true
     },
@@ -181,7 +191,7 @@
       "id": "skill_confidence",
       "metric": "Skill Confidence",
       "question": "나는 목표 직무에 필요한 역량을 갖출 수 있다고 생각한다.",
-      "t0": null,
+      "t0": 10,
       "t1": null,
       "higherIsBetter": true
     },
@@ -189,7 +199,7 @@
       "id": "execution_motivation",
       "metric": "Execution Motivation",
       "question": "나는 진로 탐색을 실제 행동으로 옮기고 싶은 동기가 있다.",
-      "t0": null,
+      "t0": 10,
       "t1": null,
       "higherIsBetter": true
     },
@@ -197,7 +207,7 @@
       "id": "career_execution_clarity",
       "metric": "Career Execution Clarity",
       "question": "나는 앞으로 무엇을 해야 하는지 구체적으로 알고 있다.",
-      "t0": null,
+      "t0": 8,
       "t1": null,
       "higherIsBetter": true
     },
@@ -205,7 +215,7 @@
       "id": "global_career_confidence",
       "metric": "Global Career Confidence",
       "question": "나는 글로벌 기업 또는 해외 진로를 현실적인 선택지로 느낀다.",
-      "t0": null,
+      "t0": 10,
       "t1": null,
       "higherIsBetter": true
     },
@@ -213,10 +223,20 @@
       "id": "career_anxiety",
       "metric": "Career Anxiety",
       "question": "나는 현재 진로에 대한 불확실성과 불안을 느낀다.",
-      "t0": null,
+      "t0": 5,
       "t1": null,
       "higherIsBetter": false
     }
   ],
-  "experiments": []
+  "experiments": [],
+  "datasetVersion": "1.0",
+  "baselineMeasuredAt": {
+    "t0": "2026-10-16",
+    "t1": null
+  },
+  "agentReports": {
+    "codex": "agents/results/codex/2026-10-16-report.md",
+    "claude": null,
+    "gemini": null
+  }
 }
