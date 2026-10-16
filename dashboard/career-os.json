@@ -4,72 +4,98 @@
     {
       "id": "ME",
       "label": "ME",
-      "status": "IN PROGRESS",
+      "status": "COMPLETE WITH CONSTRAINT",
       "tasks": [
         {
           "id": "dataset",
           "label": "Career Dataset 기본 구조 설계",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "experience",
           "label": "기존 경험 데이터 입력",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "interests",
           "label": "관심 분야 정리",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "strengths",
           "label": "핵심 강점 가설 설정",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "friction",
           "label": "실패·비선호 경험 입력",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "baseline",
           "label": "Career Baseline 평가",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "mission",
           "label": "Career Agent Mission 작성",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "criteria",
           "label": "Agent 판단기준 통일",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "format",
           "label": "Agent 출력양식 통일",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "codex",
           "label": "Codex Career Agent 실행",
-          "done": true
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "claude",
           "label": "Claude Code Career Agent 실행",
-          "done": false
+          "done": false,
+          "status": "UNAVAILABLE",
+          "reason": "Subscription unavailable at execution time."
         },
         {
           "id": "gemini",
           "label": "Gemini Career Agent 실행",
-          "done": false
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         },
         {
           "id": "results",
           "label": "Agent 결과 Repository 저장",
-          "done": false
+          "done": true,
+          "status": "COMPLETED",
+          "reason": null
         }
       ]
     },
@@ -81,12 +107,16 @@
         {
           "id": "market",
           "label": "독립 탐색 및 채용시장 증거 수집",
-          "done": false
+          "done": false,
+          "status": "PENDING",
+          "reason": null
         },
         {
           "id": "review",
           "label": "Cross Review 및 가설 2~3개 선정",
-          "done": false
+          "done": false,
+          "status": "PENDING",
+          "reason": null
         }
       ]
     },
@@ -98,7 +128,9 @@
         {
           "id": "experiments",
           "label": "실험 수행 및 전후 점수 기록",
-          "done": false
+          "done": false,
+          "status": "PENDING",
+          "reason": null
         }
       ]
     },
@@ -110,12 +142,16 @@
         {
           "id": "decision",
           "label": "가설 1~2개 선정",
-          "done": false
+          "done": false,
+          "status": "PENDING",
+          "reason": null
         },
         {
           "id": "roadmap",
           "label": "12개월 로드맵 및 30일 계획",
-          "done": false
+          "done": false,
+          "status": "PENDING",
+          "reason": null
         }
       ]
     }
@@ -237,6 +273,48 @@
   "agentReports": {
     "codex": "agents/results/codex/2026-10-16-report.md",
     "claude": null,
-    "gemini": null
+    "gemini": "agents/results/gemini/2026-10-16-summary.json"
+  },
+  "agents": {
+    "codex": {
+      "status": "COMPLETED",
+      "result": "agents/results/codex/2026-10-16-report.md",
+      "originalFullReportArchive": "STORED",
+      "reason": null
+    },
+    "gemini": {
+      "status": "COMPLETED",
+      "result": "agents/results/gemini/2026-10-16-summary.json",
+      "originalFullReportArchive": "NOT STORED",
+      "reason": "Structured summary accepted as valid result by user."
+    },
+    "claude": {
+      "status": "UNAVAILABLE",
+      "result": null,
+      "originalFullReportArchive": "NOT STORED",
+      "reason": "Subscription unavailable at execution time."
+    }
+  },
+  "crossReview": {
+    "status": "PLANNED",
+    "agents": [
+      "codex",
+      "gemini"
+    ],
+    "plan": "agents/cross-review-plan.md",
+    "reason": "Claude subscription unavailable; user-authorized two-agent review."
+  },
+  "week1Achievement": {
+    "originalPlan": {
+      "completed": 12,
+      "total": 13,
+      "percent": 92.31
+    },
+    "revisedPlan": {
+      "completed": 12,
+      "total": 12,
+      "percent": 100
+    },
+    "constraint": "Claude Code unavailable due to subscription limitation."
   }
 }

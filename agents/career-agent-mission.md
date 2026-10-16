@@ -39,3 +39,7 @@ Codex, Claude Code, Gemini에 동일한 데이터·이 문서·evaluation-framew
 ## 현재 범위
 
 Week 1에서는 데이터와 시스템을 구축한다. 직무 최종 순위·진로 결정·12개월 로드맵 확정·가상 실험 결과 작성은 하지 않는다.
+
+## 2026-10-16 — 실행 제약에 따른 프로토콜 변경
+
+기존 3-Agent 원계획은 이력으로 유지한다. 사용자 지시에 따라 Claude는 구독 제약으로 UNAVAILABLE, Codex와 Gemini 독립 결과를 Week 2 Cross Review 대상으로 한다. Gemini 구조화 Summary JSON은 유효 Agent Result로 인정하되 원문 전체는 NOT STORED다. 보관한 Dataset v1.0 공통 입력 사본은 변경하지 않는다. Cross Review는 현재 PLANNED이며 상세는 cross-review-plan.md 참조.

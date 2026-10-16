@@ -32,3 +32,18 @@ Agent 독립 분석과 시장조사·실험은 미수행.
 - Gemini 점수·가설·제안은 Gemini 주장으로만 기록. 시장 해석 UNVERIFIED.
 - 기존 Codex 보고서 존재 확인. Gemini Dashboard 완료·전체 결과 저장 완료는 처리하지 않음. Claude 미실행; Cross Review 미시작.
 - Personal Career Dataset·Baseline·공식 Hypothesis·Action Plan 변경 없음. Gemini H4는 gemini:H4로 분리해 기존 Codex H4와 혼동 방지.
+
+## 2026-10-16 — Agent execution update
+
+- Codex Career Agent 독립 분석 완료; 실제 보고서 존재 확인.
+- Gemini Career Agent 독립 분석 완료 (사용자 확인). summary.json을 유효 Agent Result로 인정.
+- Gemini Agent Run: COMPLETED / Original Full Report Archive: NOT STORED. report_saved=false는 원문 미보관을 뜻하며 실행 미완료가 아님.
+- 기존 원문 대기 상태를 ACCEPTED_STRUCTURED_RESULT로 변경하고 summary status_history에 이전 상태 보존.
+- Gemini 점수·해석·시장 검증 상태와 기존 Dataset은 변경하지 않음.
+- Claude Code는 구독 해지로 UNAVAILABLE. Reason: Subscription unavailable at execution time.
+- Claude 결과를 생성하거나 완료 처리하지 않음.
+- 실행 가능한 Codex·Gemini 결과 보관 완료로 저장 checklist 완료.
+- Week 1: COMPLETE WITH CONSTRAINT. 원계획 12/13 (92.3%), 수정계획 12/12 (100%).
+- 이후 Cross Review는 Codex + Gemini 중심으로 진행 예정. 이번 작업에서는 비교 미수행.
+
+검증: TypeScript typecheck, 상태·실제 결과 경로·원계획/수정계획 집계·Gemini 점수 불변·Dataset 및 보존 입력 SHA-256 검사 통과. 샌드박스 내 빌드는 하위 프로세스 출력 누락으로 실패했으며 권한 확장 재실행에서 프로덕션 빌드 통과. 생성 HTML의 COMPLETE WITH CONSTRAINT / Claude UNAVAILABLE / Gemini 원문 미보관 / 달성도 표시 확인. 브라우저 상호작용 검증은 미수행.

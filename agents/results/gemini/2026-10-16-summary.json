@@ -6,7 +6,7 @@
   "cross_review": false,
   "source": "User-provided description of Gemini result in import request; original report not received",
   "metadata_verification": "USER_REPORTED; not checked against original report",
-  "import_status": "AWAITING_ORIGINAL_REPORT",
+  "import_status": "ACCEPTED_STRUCTURED_RESULT",
   "report_saved": false,
   "career_ranking": [
     {
@@ -159,5 +159,17 @@
     }
   ],
   "action_status": "Gemini proposals only; not adopted or performed",
-  "scope": "Index only; no reanalysis, score changes, cross review, market verification, or official hypothesis adoption. Gemini H4 does not replace existing Codex H4."
+  "scope": "Index only; no reanalysis, score changes, cross review, market verification, or official hypothesis adoption. Gemini H4 does not replace existing Codex H4.",
+  "status_history": [
+    {
+      "date": "2026-10-16",
+      "previous_import_status": "AWAITING_ORIGINAL_REPORT",
+      "previous_report_saved": false,
+      "new_import_status": "ACCEPTED_STRUCTURED_RESULT",
+      "reason": "사용자가 구조화된 요약을 유효한 독립 실행 결과로 인정하도록 명시. 원문 보관과 실행 완료를 구분."
+    }
+  ],
+  "run_status": "COMPLETED",
+  "original_full_report_archive": "NOT STORED",
+  "accepted_as_agent_result": true
 }
