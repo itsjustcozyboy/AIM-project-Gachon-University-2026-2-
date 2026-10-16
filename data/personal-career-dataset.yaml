@@ -1,0 +1,266 @@
+{
+  "version": "0.1",
+  "source": "사용자가 제공한 Week 1 지시서; FACT는 사용자 자기보고이며 독립 검증되지 않음",
+  "facts": {
+    "current_status": {
+      "university": "가천대학교",
+      "major": "심리학과",
+      "year": "3학년"
+    },
+    "academic_transition": {
+      "previous_major": "산업경영공학",
+      "current_major": "심리학",
+      "reason": [
+        "사람 중심 문제정의에 대한 관심",
+        "인간의 의사결정에 대한 관심",
+        "인간 행동 이해에 대한 관심"
+      ],
+      "experience": [
+        "공학적 사고 경험",
+        "시스템 관점 경험",
+        "프로세스 기반 문제 해결 경험",
+        "인간 행동과 의사결정에 대한 관심 증가",
+        "실제 전과 실행"
+      ]
+    },
+    "core_interests": [
+      "Psychology",
+      "Human Behavior",
+      "Product",
+      "UX",
+      "HCI",
+      "AI",
+      "Entrepreneurship",
+      "Business",
+      "Consumer Behavior",
+      "Organizational Behavior"
+    ],
+    "experiences": [
+      {
+        "name": "휴식 → 회복",
+        "reported_actions": [
+          "사용자 문제 탐색",
+          "설문",
+          "인터뷰"
+        ]
+      },
+      {
+        "name": "K-Beauty",
+        "reported_actions": [
+          "시장 탐색",
+          "K-Beauty Buyer Sourcing AI Agent",
+          "AI 활용",
+          "외부 프로젝트 수행",
+          "실제 계약 경험"
+        ]
+      },
+      {
+        "name": "Pet-tech",
+        "reported_actions": [
+          "설문",
+          "인터뷰",
+          "사용자 문제 탐색"
+        ]
+      },
+      {
+        "name": "장례 사후관리",
+        "reported_actions": [
+          "문제 정의",
+          "Fake Door 방식 MVP 검증"
+        ]
+      },
+      {
+        "name": "마음잇기",
+        "reported_actions": [
+          "부모와 자녀가 매일 하나의 질문을 통해 서로를 이해하고 기록하는 서비스",
+          "사용자 문제 정의",
+          "서비스 기획",
+          "가족 커뮤니케이션 문제 탐색",
+          "MVP 구현"
+        ]
+      },
+      {
+        "name": "iOS / SwiftUI",
+        "reported_actions": [
+          "앱 Prototype 개발"
+        ]
+      },
+      {
+        "name": "Global E-commerce",
+        "reported_actions": [
+          "K-pop Goods 해외 판매",
+          "상품 Listing",
+          "Customer Service",
+          "HS Code",
+          "FedEx 송장",
+          "반복 업무 자동화"
+        ]
+      },
+      {
+        "name": "군 복무",
+        "reported_actions": [
+          "K9A1 병포반장",
+          "팀 단위 책임",
+          "현장 리더십",
+          "의사결정",
+          "실행 관리"
+        ]
+      },
+      {
+        "name": "대학 프로젝트",
+        "reported_actions": [
+          "팀장 역할",
+          "역할분담",
+          "일정관리",
+          "팀 커뮤니케이션",
+          "프로젝트 조율"
+        ]
+      }
+    ]
+  },
+  "inferences": {
+    "academic_transition": [
+      "System Thinking",
+      "Interdisciplinary Thinking",
+      "Career Self-direction"
+    ],
+    "possible_skills": [
+      {
+        "experience": "휴식 → 회복",
+        "skills": [
+          "User Research",
+          "Problem Discovery"
+        ]
+      },
+      {
+        "experience": "K-Beauty",
+        "skills": [
+          "AI 활용",
+          "B2B 문제 해결",
+          "프로젝트 실행",
+          "Product Thinking",
+          "Business Understanding"
+        ]
+      },
+      {
+        "experience": "Pet-tech",
+        "skills": [
+          "Customer Discovery",
+          "User Research"
+        ]
+      },
+      {
+        "experience": "장례 사후관리",
+        "skills": [
+          "Hypothesis Testing",
+          "MVP Design",
+          "Validation Thinking"
+        ]
+      },
+      {
+        "experience": "마음잇기",
+        "skills": [
+          "Human-centered Product Design",
+          "Service Planning",
+          "Behavioral Understanding"
+        ]
+      },
+      {
+        "experience": "iOS / SwiftUI",
+        "skills": [
+          "Rapid Prototyping",
+          "Product Building",
+          "Technical Collaboration"
+        ]
+      },
+      {
+        "experience": "Global E-commerce",
+        "skills": [
+          "Global Business",
+          "Operations",
+          "Automation",
+          "Problem Solving"
+        ]
+      },
+      {
+        "experience": "군 복무",
+        "skills": [
+          "Leadership",
+          "Responsibility",
+          "Execution",
+          "Decision Making"
+        ]
+      },
+      {
+        "experience": "대학 프로젝트",
+        "skills": [
+          "Project Management",
+          "Coordination",
+          "Leadership"
+        ]
+      }
+    ]
+  },
+  "hypotheses": {
+    "initial_direction": "Human Behavior × Product × AI × Business",
+    "strengths": [
+      "execution",
+      "problem_definition",
+      "structuring",
+      "interdisciplinary_thinking",
+      "leadership",
+      "rapid_learning",
+      "ai_leverage",
+      "user_research",
+      "project_coordination"
+    ],
+    "behavior_pattern": "문제 발견 → 사람 이해 → 구조화 → 해결책 기획 → 직접 만들어보기",
+    "career_candidates": [
+      "Product Manager",
+      "AI Product Manager",
+      "Product Strategy",
+      "UX Researcher",
+      "HCI Researcher",
+      "Human-AI Interaction",
+      "Behavioral Scientist",
+      "Consumer Insight",
+      "Organizational / People Analytics",
+      "Startup Founder"
+    ],
+    "career_values": {
+      "성장 가능성": "매우 높음",
+      "새로운 문제 해결": "매우 높음",
+      "실제 결과물": "매우 높음",
+      "자율성": "높음",
+      "사람에 대한 이해": "높음",
+      "기술 활용": "높음",
+      "글로벌 환경": "높음",
+      "높은 수준의 동료": "높음",
+      "안정성": "UNKNOWN",
+      "연봉": "UNKNOWN",
+      "워라밸": "UNKNOWN",
+      "사회적 영향": "UNKNOWN"
+    },
+    "preferred_work_environment": [
+      "비교적 작은 팀",
+      "높은 자율성",
+      "특정 문제를 처음부터 끝까지 경험할 수 있는 환경",
+      "사람 + 비즈니스 + 기술이 연결되는 업무",
+      "빠른 Feedback",
+      "실제 결과물을 만드는 업무",
+      "새로운 문제를 반복적으로 다루는 환경"
+    ],
+    "environments_to_verify": [
+      "대기업의 고도로 세분화된 역할",
+      "장기간 연구 중심 업무",
+      "반복 운영 중심 직무",
+      "강한 위계 중심 조직"
+    ]
+  },
+  "unknowns": [
+    "실패·비선호 경험",
+    "각 프로젝트의 기간·산출물·성과 증거",
+    "사용자 자기평가",
+    "가치관 직접 평가"
+  ]
+}
