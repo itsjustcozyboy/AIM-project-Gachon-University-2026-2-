@@ -102,21 +102,21 @@
     {
       "id": "EXPLORE",
       "label": "EXPLORE",
-      "status": "NOT STARTED",
+      "status": "COMPLETE WITH CONSTRAINT",
       "tasks": [
         {
           "id": "market",
           "label": "독립 탐색 및 채용시장 증거 수집",
-          "done": false,
-          "status": "PENDING",
-          "reason": null
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "User accepted existing Codex input and supplied Gemini result; cross review and research completed."
         },
         {
           "id": "review",
           "label": "Cross Review 및 가설 2~3개 선정",
-          "done": false,
-          "status": "PENDING",
-          "reason": null
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "User accepted existing Codex input and supplied Gemini result; cross review and research completed."
         }
       ]
     },
@@ -130,7 +130,7 @@
           "label": "실험 수행 및 전후 점수 기록",
           "done": false,
           "status": "PENDING",
-          "reason": null
+          "reason": "Outside current scope; Week 2 only."
         }
       ]
     },
@@ -144,14 +144,14 @@
           "label": "가설 1~2개 선정",
           "done": false,
           "status": "PENDING",
-          "reason": null
+          "reason": "Outside current scope; Week 2 only."
         },
         {
           "id": "roadmap",
           "label": "12개월 로드맵 및 30일 계획",
           "done": false,
           "status": "PENDING",
-          "reason": null
+          "reason": "Outside current scope; Week 2 only."
         }
       ]
     }
@@ -194,6 +194,46 @@
       "score": null,
       "confidence": "LOW",
       "status": "NEW",
+      "evidenceCount": 0,
+      "experimentCount": 0
+    },
+    {
+      "id": "W2-H1",
+      "career": "B2B AI Product Manager",
+      "hypothesis": "기존 AI workflow의 PRD·평가·재수정 업무를 반복하고 싶을 수 있다.",
+      "score": null,
+      "confidence": "LOW",
+      "status": "SELECTED FOR TESTING",
+      "evidenceCount": 0,
+      "experimentCount": 0
+    },
+    {
+      "id": "W2-H2",
+      "career": "Product Manager / UX Researcher",
+      "hypothesis": "동일 문제의 제품 결정과 조사·분석에서 반복하고 싶은 활동에 차이가 있을 수 있다.",
+      "score": null,
+      "confidence": "LOW",
+      "status": "DEFERRED",
+      "evidenceCount": 0,
+      "experimentCount": 0
+    },
+    {
+      "id": "W2-H3",
+      "career": "B2B Product Strategy",
+      "hypothesis": "고객·시장·수익 가정으로 제품 도입 우선순위를 결정하는 사업 분석을 반복하고 싶을 수 있다.",
+      "score": null,
+      "confidence": "LOW",
+      "status": "SELECTED FOR TESTING",
+      "evidenceCount": 0,
+      "experimentCount": 0
+    },
+    {
+      "id": "W2-H4",
+      "career": "HCI / Human-AI Interaction",
+      "hypothesis": "Human-AI 논문의 방법 비평·연구 재설계를 반복하고 싶을 수 있다.",
+      "score": null,
+      "confidence": "LOW",
+      "status": "SELECTED FOR TESTING",
       "evidenceCount": 0,
       "experimentCount": 0
     }
@@ -296,13 +336,15 @@
     }
   },
   "crossReview": {
-    "status": "PLANNED",
+    "status": "COMPLETED",
     "agents": [
       "codex",
       "gemini"
     ],
     "plan": "agents/cross-review-plan.md",
-    "reason": "Claude subscription unavailable; user-authorized two-agent review."
+    "reason": "Completed with accepted Codex and Gemini inputs. Claude unavailable; full Gemini original NOT STORED. Week 3/4 not started.",
+    "report": "agents/cross-review/2026-10-17-codex-gemini-week2.md",
+    "previousStatus": "REVIEWED WITH CONSTRAINTS"
   },
   "week1Achievement": {
     "originalPlan": {
@@ -316,5 +358,48 @@
       "percent": 100
     },
     "constraint": "Claude Code unavailable due to subscription limitation."
+  },
+  "week2Import": {
+    "status": "ACCEPTED_USER_SUPPLIED_RESULT",
+    "check": "reports/week2-import-check.md",
+    "codexIndependentReport": "agents/results/codex/2026-10-17-week2-report.md",
+    "geminiOriginalReport": null,
+    "geminiSummary": "agents/results/gemini/2026-10-17-week2-summary.json",
+    "geminiRun": "COMPLETED",
+    "claude": "UNAVAILABLE",
+    "geminiAcceptedReport": "agents/results/gemini/2026-10-17-week2-report.md"
+  },
+  "week2": {
+    "status": "COMPLETE WITH CONSTRAINT",
+    "selectedHypotheses": [
+      "W2-H1",
+      "W2-H3",
+      "W2-H4"
+    ],
+    "agents": {
+      "codex": {
+        "status": "COMPLETED",
+        "result": "agents/results/codex/2026-10-17-week2-report.md",
+        "provenance": "Existing independent report reused by user instruction; not a new independent run"
+      },
+      "gemini": {
+        "status": "COMPLETED",
+        "result": "agents/results/gemini/2026-10-17-week2-report.md",
+        "provenance": "Accepted user-supplied excerpts; independent run user-reported; full original NOT STORED"
+      },
+      "claude": {
+        "status": "UNAVAILABLE",
+        "result": null,
+        "provenance": "Subscription limitation"
+      }
+    },
+    "research": [
+      "research/week2-career-landscape.md",
+      "research/week2-skill-gap-matrix.md",
+      "research/week2-market-evidence.md"
+    ],
+    "scope": "Week 2 only: research, cross review, hypotheses and midterm evidence",
+    "midtermReport": "reports/week2-midterm-summary.md",
+    "constraint": "Claude unavailable; Codex existing independent report reused; Gemini accepted user-supplied excerpts."
   }
 }

@@ -23,4 +23,10 @@
 
 ## Agent 실행 상태
 
-`agents`에 PENDING / COMPLETED / UNAVAILABLE과 결과 경로·사유·원문 보관 여부를 기록한다. `agentReports`는 실제 보관 파일만 가리킨다. Gemini Summary JSON은 사용자 승인으로 유효 결과이며 원문은 NOT STORED. Claude는 UNAVAILABLE이며 실행 완료에 포함하지 않는다. `week1Achievement`는 원계획 12/13, 수정계획 12/12를 보존한다. `crossReview`는 Codex + Gemini의 PLANNED 상태이며 비교는 미수행. 이번 상태 전환은 새 localStorage 키를 사용하며 이전 브라우저 기록을 삭제하지 않는다.
+`agents`에 PENDING / COMPLETED / UNAVAILABLE과 결과 경로·사유·원문 보관 여부를 기록한다. `agentReports`는 실제 보관 파일만 가리킨다. Gemini Summary JSON은 사용자 승인으로 유효 결과이며 원문은 NOT STORED. Claude는 UNAVAILABLE이며 실행 완료에 포함하지 않는다. `week1Achievement`는 원계획 12/13, 수정계획 12/12를 보존한다. `crossReview`는 Codex + Gemini의 REVIEWED WITH CONSTRAINTS 상태다. reports/week2-cross-review.md에 비교와 제약을 기록했다. 이번 상태 전환은 새 localStorage 키를 사용하며 이전 브라우저 기록을 삭제하지 않는다.
+
+2026-10-17 당시 점검 이력(현재 해소됨): 새 Week 2 원문 기반 비교는 AWAITING_REQUIRED_REPORTS였다. `week2Import`에 누락 자료를 기록하며 당시 EXPLORE 체크는 PENDING이었다. 현재 완료 상태는 아래 최신 Week 2 상태를 따른다.
+
+## 최신 Week 2 상태
+
+`week2.status`는 COMPLETE WITH CONSTRAINT, `crossReview.status`는 COMPLETED다. 선정 ID는 W2-H1/W2-H3/W2-H4 3개이며 W2-H2는 DEFERRED다. `week2.agents`가 현재 비교 입력을 가리키고 기존 `agents`는 Week 1 결과를 보존한다. `experiments=[]`, 모든 experimentCount=0, TEST·DECIDE_AND_ACT는 NOT STARTED다. 후속 초안은 미채택 이력이며 실험 설계·실행은 현재 범위 밖이다. UI에는 현재 선택 수와 Week 2 완료/자료 제약을 표시한다.

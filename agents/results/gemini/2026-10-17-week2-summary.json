@@ -1,0 +1,145 @@
+{
+  "agent": "Gemini",
+  "date": "2026-10-17",
+  "phase": "Week 2 — EXPLORE",
+  "dataset": "Personal Career Dataset v1.0",
+  "source": "User-provided Week 2 result, explicitly accepted for comparison by user",
+  "import_status": "ACCEPTED_USER_SUPPLIED_RESULT",
+  "run_status": "COMPLETED",
+  "independent_run": true,
+  "codex_result_seen_before_analysis": false,
+  "metadata_verification": "USER_REPORTED",
+  "original_full_report_archive": "NOT STORED",
+  "report_saved": true,
+  "career_ranking": [
+    {
+      "rank": 1,
+      "career": "AI Product Manager",
+      "score": 89.5,
+      "confidence": "HIGH",
+      "difficulty": "LOW-MEDIUM"
+    },
+    {
+      "rank": 2,
+      "career": "Product Strategy / BizOps",
+      "score": 85.0,
+      "confidence": "HIGH",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "rank": 3,
+      "career": "HCI / Human-AI Interaction Researcher",
+      "score": 79.0,
+      "confidence": "MEDIUM",
+      "difficulty": "HIGH"
+    },
+    {
+      "rank": 4,
+      "career": "B2B AI Solution Architect",
+      "score": 79.0,
+      "confidence": "MEDIUM",
+      "difficulty": "MEDIUM-HIGH"
+    },
+    {
+      "rank": 5,
+      "career": "UX Researcher",
+      "score": 73.75,
+      "confidence": "MEDIUM",
+      "difficulty": "LOW-MEDIUM"
+    },
+    {
+      "rank": 6,
+      "career": "Startup Founder",
+      "score": 70.5,
+      "confidence": null,
+      "difficulty": "HIGH"
+    }
+  ],
+  "interpretations": {
+    "G1": "(Human Behavior × AI) → Business Value",
+    "G2": "Product Building ↔ Business / Product Strategy spectrum",
+    "G3": "HCI as Graduate School / Long-term Specialization Option",
+    "G4": "Evidence Gap: PRD / Product Case Study / Metrics Report / Portfolio",
+    "G5": [
+      "Product Analytics",
+      "SQL",
+      "A/B Test",
+      "LLM Evaluation",
+      "Market Sizing",
+      "Unit Economics",
+      "Quantitative Research"
+    ]
+  },
+  "career_specific_gaps": {
+    "AI Product Manager": [
+      "PRD",
+      "Product Analytics"
+    ],
+    "Product Strategy": [
+      "Unit Economics",
+      "Market Sizing"
+    ]
+  },
+  "week3_proposed_hypotheses": [
+    {
+      "id": "gemini-week2:H-AI-PM",
+      "text": "B2B / 생산성 AI Agent Workflow PRD 작성에서 높은 몰입과 방향 확신"
+    },
+    {
+      "id": "gemini-week2:H-Strategy",
+      "text": "B2B SaaS GTM / Market Sizing 분석에서 Product Strategy 적합성 탐색"
+    },
+    {
+      "id": "gemini-week2:H-HCI",
+      "text": "Human-AI 논문 분석과 Research Proposal 작성에서 학술 연구 적합성 탐색"
+    }
+  ],
+  "market_evidence": [
+    {
+      "source": "Indeed — AI Product Manager Job Description",
+      "url": null,
+      "verification_status": "UNVERIFIED",
+      "reason": "Original exact URL not supplied; subsequent Codex source checks recorded separately in research/week2-market-evidence.md"
+    },
+    {
+      "source": "Stripe Careers — Product Strategy & Operations APAC",
+      "url": null,
+      "verification_status": "UNVERIFIED",
+      "reason": "Original exact URL not supplied; subsequent Codex source checks recorded separately in research/week2-market-evidence.md"
+    },
+    {
+      "source": "Uxia — User Research Jobs Guide",
+      "url": null,
+      "verification_status": "UNVERIFIED",
+      "reason": "Original exact URL not supplied; subsequent Codex source checks recorded separately in research/week2-market-evidence.md"
+    },
+    {
+      "source": "PepsiCo Careers — AI Solutions Architect",
+      "url": null,
+      "verification_status": "UNVERIFIED",
+      "reason": "Original exact URL not supplied; subsequent Codex source checks recorded separately in research/week2-market-evidence.md"
+    }
+  ],
+  "strong_claims_review": {
+    "status": "UNVERIFIED",
+    "claims": [
+      "시장 수요가 가장 높다",
+      "2~4주 포트폴리오 작업으로 지원 가능",
+      "포트폴리오화만으로 서류 합격률 3배",
+      "HCI Researcher는 석/박사가 필수"
+    ],
+    "attribution": "Claims flagged for checking in user instructions; presence in Gemini original not confirmed"
+  },
+  "cross_review_status": "COMPLETED",
+  "action_status": "Proposals only; no experiments performed",
+  "scope": "Accepted user-supplied result; full original not archived. Scores remain Gemini claims. Experiments planned only.",
+  "status_history": [
+    {
+      "previous_import_status": "AWAITING_ORIGINAL_REPORT",
+      "new_import_status": "ACCEPTED_USER_SUPPLIED_RESULT",
+      "reason": "User confirmed prior message is the Gemini Week 2 result and authorized comparison."
+    }
+  ],
+  "report_path": "agents/results/gemini/2026-10-17-week2-report.md",
+  "archive_kind": "USER_SUPPLIED_EXCERPTS"
+}

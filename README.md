@@ -20,17 +20,18 @@ Personal Data + Multiple AI Agents + External Career Evidence
 
 ## Current Status
 
-Week 1 — ME: **COMPLETE WITH CONSTRAINT**.
+Week 2 — EXPLORE: **COMPLETE WITH CONSTRAINT**.
 
-- Personal Career Dataset v1.0, 실제 마찰 경험, Career Baseline T0 입력 완료. 구체적 비선호·가치관 점수는 추가 확인 대상.
-- 공통 Mission / Evaluation / Output Format 및 Dashboard 준비 완료.
-- Codex Independent Run: COMPLETED — Markdown 보고서 보관.
-- Gemini Independent Run: COMPLETED — 구조화 Summary JSON을 유효 결과로 인정. 원문 전체는 NOT STORED.
-- Claude Code: UNAVAILABLE — Subscription unavailable at execution time.
-- 원계획 달성: 12/13 (92.3%). 실행 가능한 수정계획 달성: 12/12 (100%).
-- Gemini 점수·해석은 Gemini 주장으로 보존. Market Evidence: UNVERIFIED.
+- Codex 기존 독립 보고서와 사용자가 전달·수용한 Gemini Week 2 결과를 보존하고 Cross Review 완료.
+- 실제 업무·채용공고·요구 역량·성장경로, Skill/Evidence Gap, 난이도·매력·반대 근거 정리.
+- 검증 대상으로 AI PM(W2-H1), Product Strategy(W2-H3), HCI(W2-H4) 3개 선정. 모두 LOW confidence·미검증.
+- Claude Code는 구독 제한으로 UNAVAILABLE. 수정계획의 2개 Agent를 비교했다.
+- Gemini 전체 원문 미보관·독립 실행 사용자 확인, Codex 기존 결과 재사용이라는 제약을 명시했다.
+- 현재 실행 범위는 2주차까지. Week 3/4 미착수, 활성 실험 0건·T1 미입력.
 
-당초 3개 Agent 실행을 계획했으나 Claude 구독 이용 제약으로 Codex와 Gemini 중심으로 변경했다. Claude 결과는 생성하지 않는다. 다음 단계는 Codex × Gemini Cross Review이며 아직 수행하지 않았다.
+[중간 활동보고서 근거](reports/week2-midterm-summary.md) · [Cross Review](agents/cross-review/2026-10-17-codex-gemini-week2.md) · [Skill Gap](research/week2-skill-gap-matrix.md) · [시장자료 검증](research/week2-market-evidence.md)
+
+Week 1은 COMPLETE WITH CONSTRAINT로 유지한다. 원계획 12/13, 실행 가능한 수정계획 12/12 완료. 기존 입력과 Agent 결과는 보존했다.
 
 ## Repository Structure
 
@@ -80,7 +81,6 @@ Next.js / TypeScript / Tailwind CSS 사용. 이 실행 환경의 Turbopack 내�
 - 원본 문서와 UI JSON은 자동 동기화되지 않는다. 변경 시 함께 갱신한다. 상세 안내는 `dashboard/README.md` 참조.
 - 중요한 변경은 기존 기록을 보존하고 `hypotheses/hypothesis-history.md`, `logs/decision-log.md`에 추가한다.
 
-## Next Step
+## 현재 작업 경계
 
-Codex × Gemini 2-Agent Cross Review를 진행할 예정이며 [비교 계획](agents/cross-review-plan.md)에 범위를 기록했다. Gemini는 사용자 전달 Summary를 기반으로 하므로 원문 세부사항은 미확인으로 남긴다. 원문 전체 보관은 실행 완료와 별도로 관리한다.
-최종 직무 순위, 실험 결과, 12개월 계획은 현재 확정하지 않는다.
+2주차 산출물까지 완료했다. 3주차 실험 설계·실행과 4주차 최종 결정·로드맵·30일 목표는 이번 범위에 포함하지 않는다. 작성 중이던 후속 상세 초안은 `experiments/drafts/`에 미채택 이력으로만 보존하며 Dashboard 실험에는 등록하지 않는다.
