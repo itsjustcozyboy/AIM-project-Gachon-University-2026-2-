@@ -62,3 +62,12 @@
 - Scope Correction: 활성 실험 3건 등록 취소·모든 experimentCount=0. 작성 중 상세 초안은 experiments/drafts/week3-micro-experiments-unadopted.md에 미채택 이력으로 분리. 설계·실행 확정 아님.
 - Constraints: Claude 구독 제한 UNAVAILABLE. Gemini 전체 원문 NOT STORED, 전달 결과를 사용자 확인으로 수용. Codex 새 독립 실행을 소급 주장하지 않음. 시장 주장은 확인 수준별로 구분.
 - Week 3/4: 실험·전후 측정·T1·최종 진로·12개월 로드맵·30일 목표 미착수. 기존 Dataset·Baseline·독립 보고서 원본은 유지.
+
+## 2026-10-17 — 개인 포트폴리오와 채용시장 연결
+
+- Previous State: 진행률·가설·Baseline 위주의 Career OS Dashboard.
+- New State: Careerfolio — 자기소개/경험/강점 근거/가치·환경 가설/6개 진로/Skill Gap/공개 채용 피드/Week 1·2 근거 문서 탐색.
+- Reason: 사용자가 자기 정보를 간편하고 자세히 파악하고 진로시장·실제 공고와 연결하는 개인 포트폴리오 화면 요청.
+- Evidence: Personal Career Dataset v1.0, Week 2 Cross Review·landscape·skill matrix, 공개 Greenhouse Job Board API의 Figma·Anthropic 실제 응답.
+- Implementation: 서버가 개인 Dataset을 읽고 UI에 전달. 공개 공고를 8초 타임아웃으로 병렬 조회. 최초/수동/활성 화면 10분 갱신, 오류·마지막 수신 시점·부분 표본을 표시. 신입 여부는 키워드 참고이며 지원 자격 판정 아님.
+- Preservation: Week 1/2 보고서·가설 원본·Dataset·Baseline·Dashboard 상태 데이터 보존. 실험 0건, Week 3/4 미착수. 정적 프로젝트 그래픽은 경험의 시각화이며 실제 제품 화면으로 주장하지 않음.

@@ -82,3 +82,12 @@ Agent 독립 분석과 시장조사·실험은 미수행.
 - Week 3/4: 실험·전후 측정·T1·최종 진로·12개월 로드맵·30일 목표 미착수. 기존 Dataset·Baseline·독립 보고서 원본은 유지.
 
 최종 검증: npm run typecheck·프로덕션 build·git diff --check 통과. JSON 호환 YAML/JSON 구조·선정 가설 3개·활성 실험 0건·모든 experimentCount=0·Week 3/4 NOT STARTED·T1 null·Claude UNAVAILABLE 확인. Codex 비교 입력 사본 바이트/해시·기존 독립 결과/Dataset/Baseline/로드맵 원본 불변 확인. 중간보고서 요약 414자, 로컬 근거 링크 유효. 생성 HTML의 Week 2 완료·자료 제약·실험 미등록 표시 확인. 브라우저 상호작용 검증은 미수행.
+
+## 2026-10-17 — Careerfolio UI와 채용시장 연결
+
+- 사용자 요청에 따라 개인 포트폴리오 형태로 개편: 프로필·강점 근거·가치/환경 가설·경험 9개·6개 진로와 Gap·실제 채용시장·Week 1/2 근거 탐색.
+- 원본 Dataset을 서버에서 읽고 경험 필터·상세 펼치기, 진로 탭→관련 공고 연결, 문서 원문 열람, 기존 체크 저장/내보내기 제공.
+- Figma·Anthropic 공개 공고를 최초/수동/활성 화면 10분 주기로 조회. 출처별 오류·마지막 수신 시각·해외 표본 제한을 표시. 국내 채용 탐색 링크 별도 제공.
+- 최종 typecheck·production build·정규화 테스트 4개·실제 API/문서 HTTP 검사·Playwright 상호작용 검사 통과. 320/390/768/1440px 가로 넘침 없음. 실패 후 마지막 피드 유지와 내보내기 상태 일치 확인.
+- 기존 개인 데이터·Baseline·두 Agent 보고서·Dashboard 상태는 불변. Week 3/4 미착수·실험 0건 유지. 배포 미수행.
+- 상세: reports/portfolio-dashboard-validation.md. 미리보기 로컬 3100 포트.
