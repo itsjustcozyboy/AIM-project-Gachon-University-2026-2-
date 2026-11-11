@@ -20,7 +20,7 @@ Personal Data + Multiple AI Agents + External Career Evidence
 
 ## Current Status
 
-Week 3 — TEST: **진행 중**. [3주차 계획과 과제 기록](experiments/week3/README.md). Week 2 — EXPLORE: **COMPLETE WITH CONSTRAINT**.
+Week 4 — DECIDE & ACT: **진로 방향 선정 · 결과 정리 완료, 실행은 후속 과제**. [추천 근거](reports/week4-career-decision.md) · [조건부 12개월 초안](roadmap/12-month-roadmap.md) · [30일 목표 초안](roadmap/next-30-days.md) · [최종 보고서 초안](reports/week4-final-report-draft.md). Week 3은 확보한 자료와 초안 수준으로 정리하며 개인 평가와 비교의 미완료 항목을 보존한다. Week 2는 **COMPLETE WITH CONSTRAINT**.
 
 - Codex 기존 독립 보고서와 사용자가 전달·수용한 Gemini Week 2 결과를 보존하고 Cross Review 완료.
 - 실제 업무·채용공고·요구 역량·성장경로, Skill/Evidence Gap, 난이도·매력·반대 근거 정리.
@@ -83,9 +83,11 @@ Next.js / TypeScript / Tailwind CSS 사용. 이 실행 환경의 Turbopack 내�
 
 ## 현재 작업 경계
 
-2주차 산출물과 기존 3주차 계획을 보존하고 수정된 3주차 과제를 진행한다. 4주차 최종 결정·로드맵·30일 목표는 미착수다. 이전 계획은 `experiments/drafts/`에 이력으로 보존한다.
+2주차 산출물과 3주차 미완료 내용을 보존하고 4주차 진로 추천과 실행 초안을 준비했다. 사용자는 PM 1순위, Product Strategy 2순위, HCI 3순위로 정했다. 30일 목표·일정 확정과 보고서 제출은 미완료다. 이전 계획은 `experiments/drafts/`에 보존한다.
 
 ## Careerfolio — 개인 포트폴리오 대시보드
+
+기본 화면은 1~4주차 활동과 선택한 진로를 간결하게 보여준다. 주차별 카드를 펼쳐 상세 기록과 체크리스트를 확인할 수 있으며, 상단 **전체 기록 보기**에서 기존 포트폴리오·채용 공고·실행 대시보드에 접근한다. 체크는 기존 브라우저 저장소를 그대로 사용한다.
 
 화면을 프로필·강점의 근거·가치관·환경 가설, 경험 카드 9개, 진로 후보 6개와 근거/Skill Gap, 실제 공고, Week 1/2 기록 순서로 구성했다. 대표 경험 3개를 먼저 보여주고 나머지를 펼칠 수 있다. 진로를 고르면 관련 직무 공고로 연결한다.
 

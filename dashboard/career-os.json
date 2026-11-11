@@ -165,21 +165,21 @@
     {
       "id": "DECIDE_AND_ACT",
       "label": "DECIDE & ACT",
-      "status": "NOT STARTED",
+      "status": "IN PROGRESS",
       "tasks": [
         {
           "id": "decision",
           "label": "가설 1~2개 선정",
-          "done": false,
-          "status": "PENDING",
-          "reason": "Outside current scope; Week 2 only."
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "사용자 선택: PM 1순위, Product Strategy 2순위, HCI 3순위."
         },
         {
           "id": "roadmap",
-          "label": "12개월 로드맵 및 30일 계획",
+          "label": "12개월·30일 계획 확정 및 실행",
           "done": false,
           "status": "PENDING",
-          "reason": "Outside current scope; Week 2 only."
+          "reason": "초안 작성 완료; 일정과 목표 확정 및 실행은 미완료."
         }
       ]
     }

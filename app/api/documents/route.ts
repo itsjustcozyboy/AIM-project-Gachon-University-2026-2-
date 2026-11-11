@@ -9,6 +9,10 @@ const documents: Record<string, string> = {
   market: 'research/week2-market-evidence.md',
   midterm: 'reports/week2-midterm-summary.md',
   week3: 'experiments/week3/README.md',
+  decision: 'reports/week4-career-decision.md',
+  roadmap: 'roadmap/12-month-roadmap.md',
+  thirty: 'roadmap/next-30-days.md',
+  final: 'reports/week4-final-report-draft.md',
 };
 export async function GET(request: Request) {
   const name = new URL(request.url).searchParams.get('name') || '';

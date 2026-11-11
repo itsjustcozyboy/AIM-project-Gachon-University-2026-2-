@@ -1,5 +1,7 @@
 # Dashboard data
 
+기본 화면은 `app/components/week-dashboard.tsx`의 1~4주차 요약이다. 상세 활동과 체크리스트를 펼칠 수 있고 기존 체크 저장 및 내보내기를 유지한다. 기존 Careerfolio와 30일 실행 기록은 `/archive`에서 이용한다. 주차별 요약 문구는 데이터가 자동 반영되지 않으므로 기록 변경 시 함께 확인한다.
+
 `career-os.json`은 Dashboard 상태·진로 가설·Baseline 표시용 데이터다. `app/components/portfolio.tsx`가 읽는다. 개인 프로필은 `app/page.tsx`가 원본 Dataset에서 불러온다.
 
 - phases: ID / label / status / tasks[]. 각 task는 id / label / done / status / reason. status: PENDING / COMPLETED / UNAVAILABLE. UNAVAILABLE은 done=false이며 체크 불가.
@@ -32,6 +34,9 @@
 `week2.status`는 COMPLETE WITH CONSTRAINT, `crossReview.status`는 COMPLETED다. 선정 ID는 W2-H1/W2-H3/W2-H4 3개이며 W2-H2는 DEFERRED다. `week2.agents`가 현재 비교 입력을 가리키고 기존 `agents`는 Week 1 결과를 보존한다. 이후 Week 3 과제 3건을 등록했고 TEST는 진행 중이며 DECIDE_AND_ACT는 미착수다. 현재 범위는 [Week 3 기록](../experiments/week3/README.md)을 따른다.
 
 ## Careerfolio 화면 / 자동 공고
+
+- Week 4 실행 대시보드는 `app/components/career-action.tsx`의 제안 데이터로 표시한다. 12개월 및 30일 원본 문서는 `roadmap/12-month-roadmap.md`, `roadmap/next-30-days.md`, 선택 근거는 `reports/week4-career-decision.md`다. 자동 동기화되지 않으므로 결정이나 내용 변경 시 컴포넌트와 문서를 함께 갱신한다.
+- 주간 체크와 증거·회고는 `career-os-action-week4-v1` 브라우저 localStorage에 보관한다. 다른 기기와 자동 동기화되지 않고, 기존 체크 내보내기와 별도의 ‘실행 기록 내보내기’ JSON으로 보존한다. 진척률은 체크한 4개 주간 항목 수 / 4이며 제안된 전체 로드맵의 진척률은 아니다. 브라우저 기록은 저장소에 자동 반영되지 않는다.
 
 - `app/page.tsx`는 JSON 호환 YAML인 `data/personal-career-dataset.yaml`을 서버에서 읽고 `app/components/portfolio.tsx`에 전달한다. 프로필·경험·가치관은 별도 복사하지 않고 원본에서 표시한다. 원본 변경은 재빌드 후 반영한다.
 - `dashboard/career-paths.json`은 Week 2 보고서 기반 6개 후보의 표시용 해석이다. 업무·경험·반대 근거·미확인 Gap·준비 부담·성장경로를 연결한다. 수정 시 공식 가설·조사 근거와 맞춘다. 후보 설명은 객관적 적합성 평가가 아니다.

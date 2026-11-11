@@ -125,3 +125,6 @@ Experiment Result: UNKNOWN — 미수행; Codex 독립 분석이며 다른 Agent
 # 2026-11-11 — Week 3 검증 방식 변경
 
 사용자 지시에 따라 W2-H1은 MOIMLOG PM 경험 회고, W2-H3은 기존 K-뷰티 프로젝트 전략 회고, W2-H4는 금융 앱의 새로운 탐색적 HCI 비교에 연결한다. 기존 가설 문구·확신도·점수는 보존하며 사례 범위의 차이를 [Week 3 계획](../experiments/week3/README.md)에 명시한다. 평가 및 최종 진로 판단은 미완료다.
+# 2026-11-11 — 사용자 진로 방향 선택
+
+사용자가 지난 4주간을 바탕으로 PM 1순위, Product Strategy 2순위, HCI 3순위를 선택했다. 기존 가설의 낮은 확신도와 미완료 평가를 소급 변경하지 않는다. [선택 근거와 한계](../reports/week4-career-decision.md).
