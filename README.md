@@ -8,7 +8,6 @@
 - [2주차 — 직무 탐색과 Agent 비교](weeks/week2.md)
 - [3주차 — 프로젝트 사례와 HCI 자료 탐색](weeks/week3.md)
 - [4주차 — 진로 선택과 후속 실행 계획](weeks/week4.md)
-- [진로 선택 근거](reports/week4-career-decision.md)
 
 Claude 미사용, Gemini 전체 원문 미보관, Codex 기존 결과 재사용이라는 제약을 유지한다. 3주차 체크는 사용자 요청에 따라 종결 표시했으며, 실제 평가와 동일 조건 앱 비교의 미완료 사실은 기록에 남겼다. 후속 계획의 실제 실행은 아직 확인되지 않았다.
 

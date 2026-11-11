@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 const documents: Record<string, string> = {
  dataset: 'weeks/week1.md', review: 'weeks/week2.md', week3: 'weeks/week3.md',
- decision: 'reports/week4-career-decision.md', roadmap: 'weeks/week4.md',
+ decision: 'weeks/week4.md', roadmap: 'weeks/week4.md',
  thirty: 'weeks/week4.md',
 };
 export async function GET(request: Request) {
