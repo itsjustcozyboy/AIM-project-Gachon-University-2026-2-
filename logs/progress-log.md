@@ -91,3 +91,12 @@ Agent 독립 분석과 시장조사·실험은 미수행.
 - 최종 typecheck·production build·정규화 테스트 4개·실제 API/문서 HTTP 검사·Playwright 상호작용 검사 통과. 320/390/768/1440px 가로 넘침 없음. 실패 후 마지막 피드 유지와 내보내기 상태 일치 확인.
 - 기존 개인 데이터·Baseline·두 Agent 보고서·Dashboard 상태는 불변. Week 3/4 미착수·실험 0건 유지. 배포 미수행.
 - 상세: reports/portfolio-dashboard-validation.md. 미리보기 로컬 3100 포트.
+
+## 2026-11-11 — Week 3 TEST 착수
+
+- AI PM·Product Strategy·HCI 실험 계획과 공통 평가, 결과물 및 비교 틀을 만들고 대시보드에 연결했다.
+- 사용자 확인: MOIMLOG를 직접 기획·개발했으며 PM으로 수행한 실제 프로젝트다. 개별 역할·판단·성과 및 경험 평가는 추가 확인한다.
+- MOIMLOG의 기존 수행 전 기대는 회상으로만 기록 가능하다. K-뷰티 전략 과제와 금융 앱 참여자 테스트는 아직 수행하지 않았다. T1과 최종 진로 결정은 미완료다.
+- 기록: experiments/week3/README.md. 과거 Week 2 범위·미채택 초안은 이력으로 보존한다.
+
+- 사용자 정정: 3주차 MOIMLOG 실험의 직무명은 PM이다. 2주차 W2-H1의 기존 AI PM 가설명은 당시 기록으로 보존한다.

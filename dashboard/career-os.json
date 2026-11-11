@@ -123,14 +123,42 @@
     {
       "id": "TEST",
       "label": "TEST",
-      "status": "NOT STARTED",
+      "status": "IN PROGRESS",
       "tasks": [
         {
-          "id": "experiments",
-          "label": "실험 수행 및 전후 점수 기록",
+          "id": "before",
+          "label": "세 실험 사전 평가",
           "done": false,
           "status": "PENDING",
-          "reason": "Outside current scope; Week 2 only."
+          "reason": null
+        },
+        {
+          "id": "ai-pm",
+          "label": "PM 실험 및 사후 평가",
+          "done": false,
+          "status": "PENDING",
+          "reason": null
+        },
+        {
+          "id": "strategy",
+          "label": "Product Strategy 실험 및 사후 평가",
+          "done": false,
+          "status": "PENDING",
+          "reason": null
+        },
+        {
+          "id": "hci",
+          "label": "HCI 참여자 테스트 및 사후 평가",
+          "done": false,
+          "status": "PENDING",
+          "reason": null
+        },
+        {
+          "id": "comparison",
+          "label": "세 실험 비교 및 4주차 준비",
+          "done": false,
+          "status": "PENDING",
+          "reason": null
         }
       ]
     },
@@ -205,7 +233,7 @@
       "confidence": "LOW",
       "status": "SELECTED FOR TESTING",
       "evidenceCount": 0,
-      "experimentCount": 0
+      "experimentCount": 1
     },
     {
       "id": "W2-H2",
@@ -225,7 +253,7 @@
       "confidence": "LOW",
       "status": "SELECTED FOR TESTING",
       "evidenceCount": 0,
-      "experimentCount": 0
+      "experimentCount": 1
     },
     {
       "id": "W2-H4",
@@ -235,7 +263,7 @@
       "confidence": "LOW",
       "status": "SELECTED FOR TESTING",
       "evidenceCount": 0,
-      "experimentCount": 0
+      "experimentCount": 1
     }
   ],
   "baseline": [
@@ -304,7 +332,68 @@
       "higherIsBetter": false
     }
   ],
-  "experiments": [],
+  "experiments": [
+    {
+      "id": "EX-W3-01",
+      "career": "PM",
+      "hypothesis": "W2-H1",
+      "status": "IN PROGRESS",
+      "estimatedTime": "2–3시간 (잠정)",
+      "beforeScore": {
+        "interest": null,
+        "confidence": null,
+        "expectedFit": null
+      },
+      "afterScore": {
+        "interest": null,
+        "flow": null,
+        "difficulty": null,
+        "skillFit": null,
+        "wouldDoAgain": null
+      },
+      "decision": null
+    },
+    {
+      "id": "EX-W3-02",
+      "career": "Product Strategy",
+      "hypothesis": "W2-H3",
+      "status": "PLANNED",
+      "estimatedTime": "2–3시간 (잠정)",
+      "beforeScore": {
+        "interest": null,
+        "confidence": null,
+        "expectedFit": null
+      },
+      "afterScore": {
+        "interest": null,
+        "flow": null,
+        "difficulty": null,
+        "skillFit": null,
+        "wouldDoAgain": null
+      },
+      "decision": null
+    },
+    {
+      "id": "EX-W3-03",
+      "career": "HCI",
+      "hypothesis": "W2-H4",
+      "status": "PLANNED",
+      "estimatedTime": "3–4시간 + 모집 (잠정)",
+      "beforeScore": {
+        "interest": null,
+        "confidence": null,
+        "expectedFit": null
+      },
+      "afterScore": {
+        "interest": null,
+        "flow": null,
+        "difficulty": null,
+        "skillFit": null,
+        "wouldDoAgain": null
+      },
+      "decision": null
+    }
+  ],
   "datasetVersion": "1.0",
   "baselineMeasuredAt": {
     "t0": "2026-10-16",

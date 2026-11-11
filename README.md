@@ -20,14 +20,14 @@ Personal Data + Multiple AI Agents + External Career Evidence
 
 ## Current Status
 
-Week 2 — EXPLORE: **COMPLETE WITH CONSTRAINT**.
+Week 3 — TEST: **준비 중**. [3주차 계획과 실험 기록](experiments/week3/README.md). Week 2 — EXPLORE: **COMPLETE WITH CONSTRAINT**.
 
 - Codex 기존 독립 보고서와 사용자가 전달·수용한 Gemini Week 2 결과를 보존하고 Cross Review 완료.
 - 실제 업무·채용공고·요구 역량·성장경로, Skill/Evidence Gap, 난이도·매력·반대 근거 정리.
 - 검증 대상으로 AI PM(W2-H1), Product Strategy(W2-H3), HCI(W2-H4) 3개 선정. 모두 LOW confidence·미검증.
 - Claude Code는 구독 제한으로 UNAVAILABLE. 수정계획의 2개 Agent를 비교했다.
 - Gemini 전체 원문 미보관·독립 실행 사용자 확인, Codex 기존 결과 재사용이라는 제약을 명시했다.
-- 현재 실행 범위는 2주차까지. Week 3/4 미착수, 활성 실험 0건·T1 미입력.
+- 3주차 실험 3건을 등록했다. MOIMLOG는 사용자가 직접 기획·개발했다고 확인했으며 상세 과정·평가는 미입력이다. 나머지 두 실험과 T1은 미완료다.
 
 [중간 활동보고서 근거](reports/week2-midterm-summary.md) · [Cross Review](agents/cross-review/2026-10-17-codex-gemini-week2.md) · [Skill Gap](research/week2-skill-gap-matrix.md) · [시장자료 검증](research/week2-market-evidence.md)
 
@@ -83,7 +83,7 @@ Next.js / TypeScript / Tailwind CSS 사용. 이 실행 환경의 Turbopack 내�
 
 ## 현재 작업 경계
 
-2주차 산출물까지 완료했다. 3주차 실험 설계·실행과 4주차 최종 결정·로드맵·30일 목표는 이번 범위에 포함하지 않는다. 작성 중이던 후속 상세 초안은 `experiments/drafts/`에 미채택 이력으로만 보존하며 Dashboard 실험에는 등록하지 않는다.
+2주차 산출물을 보존하고 3주차의 새 실험 계획을 준비한다. 4주차 최종 결정·로드맵·30일 목표는 미착수다. 기존 후속 상세 초안은 `experiments/drafts/`에 미채택 이력으로 보존한다.
 
 ## Careerfolio — 개인 포트폴리오 대시보드
 

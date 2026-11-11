@@ -8,6 +8,7 @@ const documents: Record<string, string> = {
   gaps: 'research/week2-skill-gap-matrix.md',
   market: 'research/week2-market-evidence.md',
   midterm: 'reports/week2-midterm-summary.md',
+  week3: 'experiments/week3/README.md',
 };
 export async function GET(request: Request) {
   const name = new URL(request.url).searchParams.get('name') || '';
