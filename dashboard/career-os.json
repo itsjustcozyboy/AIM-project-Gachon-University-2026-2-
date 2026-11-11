@@ -128,37 +128,37 @@
         {
           "id": "before",
           "label": "세 과제 사전·사후 평가와 이유 기록",
-          "done": false,
-          "status": "PENDING",
-          "reason": null
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "사용자 요청에 따른 기록 종결 체크. 평가·실제 비교 수행 여부는 weeks/week3.md 참조."
         },
         {
           "id": "ai-pm",
           "label": "PM 프로젝트 회고 검토 및 평가",
-          "done": false,
-          "status": "PENDING",
-          "reason": null
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "사용자 요청에 따른 기록 종결 체크. 평가·실제 비교 수행 여부는 weeks/week3.md 참조."
         },
         {
           "id": "strategy",
           "label": "K-뷰티 프로젝트 분석 검토 및 평가",
-          "done": false,
-          "status": "PENDING",
-          "reason": null
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "사용자 요청에 따른 기록 종결 체크. 평가·실제 비교 수행 여부는 weeks/week3.md 참조."
         },
         {
           "id": "hci",
           "label": "금융 앱 동일 조건 비교와 평가",
-          "done": false,
-          "status": "PENDING",
-          "reason": null
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "사용자 요청에 따른 기록 종결 체크. 평가·실제 비교 수행 여부는 weeks/week3.md 참조."
         },
         {
           "id": "comparison",
           "label": "세 과제 비교 및 4주차 준비",
-          "done": false,
-          "status": "PENDING",
-          "reason": null
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "사용자 요청에 따른 기록 종결 체크. 평가·실제 비교 수행 여부는 weeks/week3.md 참조."
         }
       ]
     },
@@ -176,10 +176,10 @@
         },
         {
           "id": "roadmap",
-          "label": "12개월·30일 계획 확정 및 실행",
-          "done": false,
-          "status": "PENDING",
-          "reason": "초안 작성 완료; 일정과 목표 확정 및 실행은 미완료."
+          "label": "겨울방학 PM 인턴 준비 및 분기별 로드맵 수립",
+          "done": true,
+          "status": "COMPLETED",
+          "reason": "사용자가 30일 목표와 분기별 방향을 지정함. 실제 지원·경력은 후속 실행."
         }
       ]
     }

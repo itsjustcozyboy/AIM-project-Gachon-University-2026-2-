@@ -1,96 +1,19 @@
-# Career OS
+# 2026 아르테크네 AIM 프로젝트
 
-Agentic AI와 함께 만드는 자기탐구·직무검증·실행 로드맵 프로젝트.
-진로를 즉시 추천받는 대신, 데이터와 외부 증거·현실 실험으로 진로 불확실성을 줄인다.
+프로젝트 종결. 4주간의 탐색을 바탕으로 사용자는 **PM 1순위 → Product Strategy 2순위 → HCI 3순위**로 진로 방향을 정했다.
 
-기존 프로젝트 소개: **AIM-project-Gachon-University-2026-2-** — 2026-2 Gachon University Artechne project #12
+## 핵심 기록
 
-## Core Process
+- [1주차 — 자기 이해](weeks/week1.md)
+- [2주차 — 직무 탐색과 Agent 비교](weeks/week2.md)
+- [3주차 — 프로젝트 사례와 HCI 자료 탐색](weeks/week3.md)
+- [4주차 — 진로 선택과 후속 실행 계획](weeks/week4.md)
+- [진로 선택 근거](reports/week4-career-decision.md)
 
-```text
-ME → EXPLORE → TEST → DECIDE & ACT
-```
+Claude 미사용, Gemini 전체 원문 미보관, Codex 기존 결과 재사용이라는 제약을 유지한다. 3주차 체크는 사용자 요청에 따라 종결 표시했으며, 실제 평가와 동일 조건 앱 비교의 미완료 사실은 기록에 남겼다. 후속 계획의 실제 실행은 아직 확인되지 않았다.
 
-## Method
+## 대시보드
 
-```text
-Personal Data + Multiple AI Agents + External Career Evidence
-+ Real-world Experiments = Career Decision Evidence
-```
+`npm install` 후 `npm run dev`로 실행하고 Codespaces 3000 포트를 연다. `npm run typecheck`, `npm run build`로 검증한다. 주차별 기록과 체크리스트, 문서 열람 및 내보내기를 제공한다. 체크는 브라우저에 저장되며 기기·저장소와 자동 동기화되지 않는다.
 
-## Current Status
-
-Week 4 — DECIDE & ACT: **진로 방향 선정 · 결과 정리 완료, 실행은 후속 과제**. [추천 근거](reports/week4-career-decision.md) · [조건부 12개월 초안](roadmap/12-month-roadmap.md) · [30일 목표 초안](roadmap/next-30-days.md) · [최종 보고서 초안](reports/week4-final-report-draft.md). Week 3은 확보한 자료와 초안 수준으로 정리하며 개인 평가와 비교의 미완료 항목을 보존한다. Week 2는 **COMPLETE WITH CONSTRAINT**.
-
-- Codex 기존 독립 보고서와 사용자가 전달·수용한 Gemini Week 2 결과를 보존하고 Cross Review 완료.
-- 실제 업무·채용공고·요구 역량·성장경로, Skill/Evidence Gap, 난이도·매력·반대 근거 정리.
-- 검증 대상으로 AI PM(W2-H1), Product Strategy(W2-H3), HCI(W2-H4) 3개 선정. 모두 LOW confidence·미검증.
-- Claude Code는 구독 제한으로 UNAVAILABLE. 수정계획의 2개 Agent를 비교했다.
-- Gemini 전체 원문 미보관·독립 실행 사용자 확인, Codex 기존 결과 재사용이라는 제약을 명시했다.
-- 3주차는 기존 MOIMLOG·K-뷰티 프로젝트 회고와 새 금융 앱 공개 자료 탐색으로 구성한다. 초안과 자료 조사 후 사용자 검토·평가 및 동일 조건 화면 비교가 남아 있다. T1 미입력.
-
-[중간 활동보고서 근거](reports/week2-midterm-summary.md) · [Cross Review](agents/cross-review/2026-10-17-codex-gemini-week2.md) · [Skill Gap](research/week2-skill-gap-matrix.md) · [시장자료 검증](research/week2-market-evidence.md)
-
-Week 1은 COMPLETE WITH CONSTRAINT로 유지한다. 원계획 12/13, 실행 가능한 수정계획 12/12 완료. 기존 입력과 Agent 결과는 보존했다.
-
-## Repository Structure
-
-```text
-app/                 Next.js Dashboard UI / styles
-CODEX_CAREER_OS_WEEK1.md  Week 1 실행 지시서
-IMPLEMENTATION_REPORT.md  구현 및 검증 결과
-data/                개인 데이터 Markdown / YAML, T0·T1 및 가치관, 마찰 경험
-agents/              공통 Mission, 평가 기준, 출력 템플릿
-  results/{codex,claude,gemini}/  Codex 보고서 / Gemini Summary JSON (Claude unavailable)
-hypotheses/          가설과 변경 이력
-experiments/         실험 안내, 템플릿, results/
-research/            jobs/, companies/, career-paths/ 증거 저장 공간
-dashboard/           UI 데이터 JSON과 편집 안내
-roadmap/             Week 4 작성용 TODO 문서
-logs/                의사결정·진행 기록
-```
-
-## Dashboard 실행
-
-Node.js 20.9 이상 필요. 이 환경에서는 Node.js 24 사용.
-
-```bash
-npm install
-npm run dev
-```
-
-Codespaces의 Ports에서 **3000**을 열면 Dashboard를 확인할 수 있다.
-
-```bash
-npm run typecheck
-npm run build
-npm start
-```
-
-Next.js / TypeScript / Tailwind CSS 사용. 이 실행 환경의 Turbopack 내부 포트 제한을 피하기 위해 dev/build는 Webpack을 사용한다. 외부 계정·API 키·폰트 다운로드는 필요하지 않다.
-
-## 데이터 편집
-
-- 개인 경험 원본: `data/personal-career-dataset.yaml`. 자기보고 FACT / INFERENCE / HYPOTHESIS 구분.
-- YAML 파일은 JSON 호환 YAML 1.2 문법으로 작성해 별도 파서 없이도 읽을 수 있다.
-- T0 입력: `data/career-baseline.yaml`의 해당 `score`와 `t0`를 같은 값으로 입력하고 `measured_at.t0`를 기록한다. T1은 종료 시 입력. 점수는 1~10.
-- 가치관: 같은 파일의 `career_values`에 4개 중요도 점수 입력.
-- 실패·비선호: `data/friction-dataset.yaml`에 직접 입력. 빈 배열은 미입력 상태다.
-- UI: `dashboard/career-os.json` 편집. 체크 변경은 브라우저 localStorage에 보관되며, 내보낸 JSON을 해당 파일에 반영하면 저장소에도 보존된다. 자동 서버 저장 기능은 없다.
-- 브라우저에 저장된 체크 상태는 파일의 기본값보다 우선한다. 기본값으로 되돌리려면 브라우저 저장소의 `career-os-checklist-agent-status-v2` 키를 지운다.
-- 원본 문서와 UI JSON은 자동 동기화되지 않는다. 변경 시 함께 갱신한다. 상세 안내는 `dashboard/README.md` 참조.
-- 중요한 변경은 기존 기록을 보존하고 `hypotheses/hypothesis-history.md`, `logs/decision-log.md`에 추가한다.
-
-## 현재 작업 경계
-
-2주차 산출물과 3주차 미완료 내용을 보존하고 4주차 진로 추천과 실행 초안을 준비했다. 사용자는 PM 1순위, Product Strategy 2순위, HCI 3순위로 정했다. 30일 목표·일정 확정과 보고서 제출은 미완료다. 이전 계획은 `experiments/drafts/`에 보존한다.
-
-## Careerfolio — 개인 포트폴리오 대시보드
-
-기본 화면은 1~4주차 활동과 선택한 진로를 간결하게 보여준다. 주차별 카드를 펼쳐 상세 기록과 체크리스트를 확인할 수 있으며, 상단 **전체 기록 보기**에서 기존 포트폴리오·채용 공고·실행 대시보드에 접근한다. 체크는 기존 브라우저 저장소를 그대로 사용한다.
-
-화면을 프로필·강점의 근거·가치관·환경 가설, 경험 카드 9개, 진로 후보 6개와 근거/Skill Gap, 실제 공고, Week 1/2 기록 순서로 구성했다. 대표 경험 3개를 먼저 보여주고 나머지를 펼칠 수 있다. 진로를 고르면 관련 직무 공고로 연결한다.
-
-Figma·Anthropic 공개 채용 보드를 최초 열람과 활성 화면 10분 주기로 자동 조회한다. 직무·검색어·Early career 키워드 필터와 수동 새로고침을 지원한다. 국내·연구 채용의 공식 탐색 링크도 제공한다. 공고 응답 시각과 오류를 표시하며, 공고의 지원 자격·최종 마감은 원문에서 확인한다. 서버 실행과 외부 인터넷 연결이 필요하며 정적 HTML만으로는 자동 공고가 동작하지 않는다.
-
-기존과 같이 `npm run dev`로 실행하고 Codespaces의 3000 포트를 열면 된다. 데이터·출처 갱신 방법과 오류 처리는 [Dashboard 안내](dashboard/README.md) 참조. 채용 데이터 정규화 검증은 Node.js 24에서 `node tests/jobs.test.mjs`로 실행한다.
+중복 초안·개발 보고·이전 포트폴리오·채용공고 기능은 종결 시 정리했다. Git 커밋 이력은 유지한다.

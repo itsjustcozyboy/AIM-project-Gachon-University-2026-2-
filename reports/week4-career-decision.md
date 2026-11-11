@@ -17,4 +17,4 @@ Codex는 총점 없이 PM/UXR 비교와 운영 근거를 강조했고 Gemini는 
 
 국내 신입 기회는 직무명과 채용 시점별 확인이 필요하다. 해외의 [Microsoft 대학 인턴 안내](https://careers.microsoft.com/v2/global/en/universityinternship)(2026-11-11 확인)는 대학 인턴 프로그램 및 제품 관리 분야를 소개한다. [국가별 자격 안내](https://careers.microsoft.com/v2/global/en/internship_eligibility)는 재학·언어·근무 자격이 국가별로 다름을 보여준다. 개인 지원 가능성·현재 채용 여부·국내 전체 시장 수요를 뜻하지 않는다.
 
-사용자 최종 선택: PM → Product Strategy → HCI. 선택의 세부 이유: 미입력. [기존 비교](../agents/cross-review/2026-10-17-codex-gemini-week2.md) · [Gap](../research/week2-skill-gap-matrix.md) · [Week 3](../experiments/week3/README.md).
+사용자 최종 선택: PM → Product Strategy → HCI.  기존 비교 · Gap · Week 3.

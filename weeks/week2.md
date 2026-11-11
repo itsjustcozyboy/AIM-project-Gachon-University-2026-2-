@@ -1,3 +1,53 @@
+# Week 2 중간 활동보고서 근거
+
+Date: 2026-10-17 | EXPLORE: COMPLETE WITH CONSTRAINT | Week 3/4: NOT STARTED
+
+## 500자 이내 요약
+
+Personal Career Dataset v1.0을 바탕으로 독립 분석한 Codex와 Gemini의 결과를 보존하고, 실제 직무·채용공고·필요 역량·성장경로를 조사했다. 현재 경험과 요구 역량을 Skill Gap Matrix로 비교하고 후보별 진입 난이도·매력·적합 및 반대 근거를 정리했다. Cross Review에서는 AI PM의 가능성에 대한 공통 판단과 Strategy·HCI·UXR의 우선순위 및 확신 차이를 검토했다. 점수를 평균내지 않고 제품 책임·사업 판단·연구 수행을 구분할 정보 가치를 기준으로 AI PM·Product Strategy·HCI 가설 3개를 선정했다. Claude는 구독 제한으로 제외했다. Gemini는 사용자 전달 결과를 수용했으며 전체 원문 미보관 제약을 기록했다. 3·4주차 활동은 착수하지 않았다.
+
+## 상세 버전
+
+### 조사와 비교 입력
+
+1주차의 Dataset v1.0과 공통 평가 규칙을 사용한 Codex 독립 보고서를 원본 그대로 보존하고 Week 2 비교 입력 사본·해시를 남겼다. 새 독립 실행을 소급 주장하지 않았다. Gemini는 사용자가 전달하고 독립 실행을 확인한 Week 2 결과를 발췌 보관물과 구조화 JSON으로 수용했다. 전체 원문 미보관과 사용자 확인 메타데이터라는 한계는 별도로 표시했다. 원계획의 Claude Code는 기존 구독 제한으로 UNAVAILABLE이므로 수정계획의 두 Agent를 비교했다.
+
+### 직무·시장·현재 역량
+
+AI PM, Product Strategy/BizOps, HCI/Human-AI Interaction, B2B AI Solution Architect, UXR, 창업 및 일반 PM을 검토했다. 사용자 조사·MVP·AI Agent·계약·해외 판매 경험은 직무와 연결되는 자기보고 근거다. 다만 프로젝트 기간·역할·산출물·성과와 SQL·통계·영어·운영 수준은 미확인이다. Skill Gap과 Evidence Gap을 구분해 기존 경험의 문서화만으로 모든 부족이 해소된다고 보지 않았다.
+
+Indeed AI PM 가이드, Stripe 전략 공고, Uxia 연구직 가이드, PepsiCo AI SA의 공식 검색 결과를 확인하고 본문 접근 실패·자료 유형·경력직 표본의 한계를 기록했다. Stripe 공고의 7년 이상 경력 요건은 해당 직무의 증거이며 전체 시장의 진입 조건으로 일반화하지 않았다. 시장 수요 최상위·합격률 3배·단기간 지원 가능·HCI 학위 보편 필수 같은 강한 표현은 미검증으로 남겼다.
+
+### 공통점과 차이
+
+두 Agent는 사람·제품·AI·사업의 접점과 지표·분석·AI 평가·산출물 증거 확보의 필요성에 공통으로 주목했다. Codex는 미평가 항목을 null로 두고 PM/UXR 비교 및 운영 책임 검증을 강조했다. Gemini는 AI PM 89.5, Strategy 85를 제안하며 PRD·Product Analytics와 Market Sizing·Unit Economics를 강조했고, HCI를 장기 특화 가능성으로 보았다. 총점 평균과 Agent 합의의 자동 FACT 승격 없이 근거 수준·반대 근거·자료 공백을 비교했다.
+
+### 선정 가설과 이유
+
+| ID | 현재 선정 가설 | 선정 이유 | 반대 근거 / 미확인 |
+|---|---|---|---|
+| W2-H1 AI PM | AI workflow의 PRD·평가·재수정을 반복하고 싶을 수 있다 | K-Beauty·자동화와 직접 연결되며 제품 책임 선호를 구분 | 지속 개선·지표·본인 기여 미확인 |
+| W2-H3 Product Strategy | 고객·시장·수익 가정으로 도입 우선순위를 판단하는 일을 반복하고 싶을 수 있다 | 시장 탐색·이커머스와 연결되며 사업 분석과 구현 선호를 구분 | 재무·SQL·시장 수치 숙련도와 판단 성과 미확인 |
+| W2-H4 HCI | 논문의 방법 비평·연구 재설계를 반복하고 싶을 수 있다 | 심리×기술 관심이 연구 업무에도 이어지는지 구분할 정보 가치 | 문헌·통계·실험 실적 미확인 |
+
+셋 모두 LOW confidence, 점수 null, 미검증이다. PM/UXR 비교는 후속 선택지로 보존했다. 선택은 직업의 최종 순위나 확정이 아니라 이후 검증할 질문의 선정이다.
+
+### 완료 범위
+
+Week 2의 조사·Skill Gap·실행 난이도/매력·Cross Review·가설 3개·중간보고서 근거 정리까지 완료했다. Week 3 실험 설계·등록·실행, Week 4 최종 가설·로드맵·30일 목표는 착수하지 않는다. 실험 결과와 T1은 없다.
+
+## 근거 파일
+
+- 최종 Cross Review
+- 직무와 성장경로
+- Skill / Evidence Gap Matrix
+- 시장자료 확인 수준
+- Codex 비교 입력 메타데이터
+- Gemini 수용 결과
+
+
+---
+
 # Week 2 Cross Review
 ## Codex × Gemini
 
@@ -11,9 +61,9 @@ Date: 2026-10-17 | Status: COMPLETED | 실험 미수행 / 최종 진로 미결�
 | Gemini | YES — USER_REPORTED | v1.0 — USER_REPORTED | NO — USER_REPORTED |
 | Claude | UNAVAILABLE | - | - |
 
-사용자가 기존 Codex 보고서를 여기서 비교 입력하고 직전 메시지를 Gemini 결과로 사용하도록 명시했다. 이에 대기 조건을 해소했다. Codex는 새 독립 실행으로 소급 표시하지 않고 [10월 16일 원본](../results/codex/2026-10-16-report.md)의 바이트 동일 [Week 2 비교 입력 사본](../results/codex/2026-10-17-week2-report.md)을 저장했다. [메타데이터](../results/codex/2026-10-17-week2-input-metadata.json)에 출처·해시·재사용을 기록했다.
+사용자가 기존 Codex 보고서를 여기서 비교 입력하고 직전 메시지를 Gemini 결과로 사용하도록 명시했다. 이에 대기 조건을 해소했다. Codex는 새 독립 실행으로 소급 표시하지 않고 10월 16일 원본의 바이트 동일 Week 2 비교 입력 사본을 저장했다. 메타데이터에 출처·해시·재사용을 기록했다.
 
-Gemini는 [사용자 전달 결과 보관물](../results/gemini/2026-10-17-week2-report.md)과 [구조화 요약](../results/gemini/2026-10-17-week2-summary.json)을 사용한다. 전체 원문은 NOT STORED이며 수용된 발췌 결과다. 독립성·동일 입력은 사용자 확인이고 별도 원문/해시 검증은 UNKNOWN. 두 결과 보존 후 이번 비교를 수행했다. 기존 [초기 비교](../../reports/week2-cross-review.md)는 과거 입력 기반 기록으로 보존한다.
+Gemini는 사용자 전달 결과 보관물과 구조화 요약을 사용한다. 전체 원문은 NOT STORED이며 수용된 발췌 결과다. 독립성·동일 입력은 사용자 확인이고 별도 원문/해시 검증은 UNKNOWN. 두 결과 보존 후 이번 비교를 수행했다. 기존 초기 비교는 과거 입력 기반 기록으로 보존한다.
 
 ## 2. Candidate Comparison
 
@@ -65,7 +115,7 @@ Codex는 총순위를 부여하지 않았고 미평가 기준 때문에 총점 n
 
 ## 6. Skill Gap Cross Review
 
-[통합 Skill Gap Matrix](../../research/week2-skill-gap-matrix.md)에 현재 증거·각 Agent 판단·확인 과제를 연결했다. Skill Gap은 직접 수행 진단에서 부족함이 확인되어야 확정한다. 현재 다수 항목은 잠재 Gap/UNKNOWN이다. Evidence Gap도 파일이 안 보인다는 이유로 사용자가 아무 자료도 갖고 있지 않다고 단정하지 않는다.
+통합 Skill Gap Matrix에 현재 증거·각 Agent 판단·확인 과제를 연결했다. Skill Gap은 직접 수행 진단에서 부족함이 확인되어야 확정한다. 현재 다수 항목은 잠재 Gap/UNKNOWN이다. Evidence Gap도 파일이 안 보인다는 이유로 사용자가 아무 자료도 갖고 있지 않다고 단정하지 않는다.
 
 우선순위는 기존 경험의 역할·과정·성과 정리와 PRD/지표, SQL·분석, LLM 평가다. Strategy는 시장규모·unit economics, HCI는 통계·문헌·연구방법을 해당 실험에서 구분한다.
 
@@ -109,4 +159,28 @@ W2-H2 PM/UXR는 DEFERRED, 기존 H1–H4와 초기 가설 원문은 보존한다
 
 ## 11. 완료 범위와 제약
 
-두 수용된 결과 보관·비교, 시장 출처 점검, Skill/Evidence Gap 통합, 가설 3개 선정, [중간보고서 근거](../../reports/week2-midterm-summary.md) 정리를 완료했다. Gemini 전체 원문 미보관·독립성 사용자 확인, Codex 기존 독립 결과 재사용, Claude 구독 제약은 남는다. 따라서 원계획 3개 Agent가 아니라 실행 가능한 수정계획 2개 Agent의 Week 2를 완료한 상태다. Week 3/4는 NOT STARTED이고 실험 결과·T1·최종 진로·12개월 계획은 없다.
+두 수용된 결과 보관·비교, 시장 출처 점검, Skill/Evidence Gap 통합, 가설 3개 선정, 중간보고서 근거 정리를 완료했다. Gemini 전체 원문 미보관·독립성 사용자 확인, Codex 기존 독립 결과 재사용, Claude 구독 제약은 남는다. 따라서 원계획 3개 Agent가 아니라 실행 가능한 수정계획 2개 Agent의 Week 2를 완료한 상태다. Week 3/4는 NOT STARTED이고 실험 결과·T1·최종 진로·12개월 계획은 없다.
+
+
+---
+
+# Week 2 Skill / Evidence Gap Matrix
+
+Date: 2026-10-17. 자기보고 경험과 실제 숙련도는 구분한다. 필요한 역량이 존재한다는 사실만으로 개인의 부족을 확정하지 않는다. 아래 Skill 항목은 대부분 미측정 잠재 Gap이다. P1=첫 진단·증거 확보, P2=방향 확인 후 심화.
+
+| Skill / Evidence Gap | 현재 근거·상태 | Codex | Gemini | Consensus | Priority / 확인 과제 |
+|---|---|---|---|---|---|
+| SQL (잠재 Skill) | 자동화 경험은 있지만 SQL 수준 UNKNOWN | 전략 SQL UNKNOWN | G5 SQL | 미측정 | P1: 간단한 집계·JOIN 과제; EX-02 대체 분석의 한계 기록 |
+| Product Analytics (잠재 Skill) | MVP 있으나 지표 운영 UNKNOWN | PM 지표·실험·개선 | AI PM 핵심 Gap | 지표 해석과 운영 증거 필요 | P1: EX-01 성공/실패 지표·측정 계획 |
+| A/B Test (잠재 Skill) | Fake Door 경험은 무작위 실험 증거가 아님 | PM 실험·통계 미확인 | G5 A/B Test | 실험 경험 종류 구분 | P2: 가설·대조조건·편향 설명, 대규모 결과 생성 금지 |
+| PRD (Evidence + 잠재 Skill) | 마음잇기·AI Agent; 원 PRD 품질 UNKNOWN | 제품 개선안·요구·우선순위 | AI PM 핵심 Gap | 기존 판단을 문서로 검증 | P1: EX-01 2쪽 PRD와 포기한 대안 |
+| LLM Evaluation (잠재 Skill) | AI 활용, 고정 평가셋 없음/미확보 | 평가·오류·시간·비용 | G5 LLM Evaluation | AI 사용과 운영평가 구분 | P1: EX-01 입력 5개·전후 오류·수동 대체 |
+| Market Sizing (잠재 Skill) | 시장 탐색 자기보고, 수치 산식 UNKNOWN | 전략 시장 분석 공백 | Strategy 핵심 Gap | 크기보다 근거·가정 중요 | P1: EX-02 단위·기간·가정·민감도 |
+| Unit Economics (잠재 Skill) | 계약·판매, 수익 계산 UNKNOWN | 재무·수익·런웨이 | Strategy 핵심 Gap | 단위 비용·가격·반복 사용 진단 | P1: EX-02 절감/도입 비용 표; 가정값 명시 |
+| Statistics / Quant Research (잠재 Skill) | 심리학·설문, 숙련도 UNKNOWN | UXR/HCI 통계·표집 | G5 Quantitative Research | 전공을 숙련도 대용으로 쓰지 않음 | P1: EX-03 변수·분석 계획·해석 한계 |
+| Academic Research (잠재 Skill) | 논문·재현 경험 UNKNOWN | E4 방법 비평 | HCI proposal | 연구 행동 먼저 검증 | P1: EX-03 원문 방법 비평·재설계 |
+| English Communication (미확인 Skill) | 글로벌 판매·여행, 직무 소통 수준 UNKNOWN | 영어·허가 UNKNOWN | 제공 Week 2 상세에 직접 평가 없음 | 합의 아님; 공통 개인 미확인 | P2: 목표 공고의 발표·쓰기 과제로 별도 진단 |
+| Portfolio Evidence (Evidence) | 여러 프로젝트 자기보고; 역할·기간·성과 파일 미확보 | 산출물·기여·성과 요구 | G4 Evidence Gap | 증거 정리 필요 | P1: 경험 1건의 역할·과정·결과·한계 정리 |
+| Production Architecture (잠재 Skill) | AI prototype·SwiftUI, 배포·보안 UNKNOWN | 독립 결과 SA 평가 없음 | SA 후보 79점 | 합의 없음·당장 진입성 미확인 | P2: 구성도·배포·오류 복구 수행 표본 |
+
+Evidence Gap: 경험은 보고됐으나 그 경험을 검토할 산출물·본인 역할·결과가 현재 저장소에서 충분히 연결되지 않음. Skill Gap: 실제 과제에서 부족함을 확인했을 때 학습 과제로 전환. 두 Gap은 함께 존재할 수 있으며 포트폴리오 작성만으로 숙련도·합격률 상승을 보장하지 않는다.
