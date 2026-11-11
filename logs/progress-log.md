@@ -100,3 +100,10 @@ Agent 독립 분석과 시장조사·실험은 미수행.
 - 기록: experiments/week3/README.md. 과거 Week 2 범위·미채택 초안은 이력으로 보존한다.
 
 - 사용자 정정: 3주차 MOIMLOG 실험의 직무명은 PM이다. 2주차 W2-H1의 기존 AI PM 가설명은 당시 기록으로 보존한다.
+
+## 2026-11-11 — Week 3 과제 범위 재정의
+
+- 사용자의 새 지시에 따라 MOIMLOG와 기존 K-뷰티 프로젝트를 회고하고, HCI는 토스·하나·KB·신한 앱의 새 비교로 변경했다.
+- main은 변경 전 clean; origin/week3-career-experiments-revised의 두 초안을 확인해 과거 main 계획과 함께 experiments/drafts/week3-previous-plan/에 보존했다.
+- 사용자 제공 MOIMLOG 사례와 저장소 README·백엔드 코드를 분리 기록. K-뷰티 기존 자기보고에 근거한 전략 초안과 대안 검토 질문을 작성했다.
+- 네 금융 앱의 공식 공개 안내 자료를 탐색했다. 동일 조건 앱 화면·사용자 참여 테스트는 미수행. 사전·사후 평가와 사용자 회고는 미입력이다.

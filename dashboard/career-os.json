@@ -127,35 +127,35 @@
       "tasks": [
         {
           "id": "before",
-          "label": "세 실험 사전 평가",
+          "label": "세 과제 사전·사후 평가와 이유 기록",
           "done": false,
           "status": "PENDING",
           "reason": null
         },
         {
           "id": "ai-pm",
-          "label": "PM 실험 및 사후 평가",
+          "label": "PM 프로젝트 회고 검토 및 평가",
           "done": false,
           "status": "PENDING",
           "reason": null
         },
         {
           "id": "strategy",
-          "label": "Product Strategy 실험 및 사후 평가",
+          "label": "K-뷰티 프로젝트 분석 검토 및 평가",
           "done": false,
           "status": "PENDING",
           "reason": null
         },
         {
           "id": "hci",
-          "label": "HCI 참여자 테스트 및 사후 평가",
+          "label": "금융 앱 동일 조건 비교와 평가",
           "done": false,
           "status": "PENDING",
           "reason": null
         },
         {
           "id": "comparison",
-          "label": "세 실험 비교 및 4주차 준비",
+          "label": "세 과제 비교 및 4주차 준비",
           "done": false,
           "status": "PENDING",
           "reason": null
@@ -357,7 +357,7 @@
       "id": "EX-W3-02",
       "career": "Product Strategy",
       "hypothesis": "W2-H3",
-      "status": "PLANNED",
+      "status": "IN PROGRESS",
       "estimatedTime": "2–3시간 (잠정)",
       "beforeScore": {
         "interest": null,
@@ -377,7 +377,7 @@
       "id": "EX-W3-03",
       "career": "HCI",
       "hypothesis": "W2-H4",
-      "status": "PLANNED",
+      "status": "IN PROGRESS",
       "estimatedTime": "3–4시간 + 모집 (잠정)",
       "beforeScore": {
         "interest": null,

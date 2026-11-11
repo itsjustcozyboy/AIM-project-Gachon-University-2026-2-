@@ -122,3 +122,6 @@ Experiment Result: UNKNOWN — 미수행; Codex 독립 분석이며 다른 Agent
 - Scope Correction: 활성 실험 3건 등록 취소·모든 experimentCount=0. 작성 중 상세 초안은 experiments/drafts/week3-micro-experiments-unadopted.md에 미채택 이력으로 분리. 설계·실행 확정 아님.
 - Constraints: Claude 구독 제한 UNAVAILABLE. Gemini 전체 원문 NOT STORED, 전달 결과를 사용자 확인으로 수용. Codex 새 독립 실행을 소급 주장하지 않음. 시장 주장은 확인 수준별로 구분.
 - Week 3/4: 실험·전후 측정·T1·최종 진로·12개월 로드맵·30일 목표 미착수. 기존 Dataset·Baseline·독립 보고서 원본은 유지.
+# 2026-11-11 — Week 3 검증 방식 변경
+
+사용자 지시에 따라 W2-H1은 MOIMLOG PM 경험 회고, W2-H3은 기존 K-뷰티 프로젝트 전략 회고, W2-H4는 금융 앱의 새로운 탐색적 HCI 비교에 연결한다. 기존 가설 문구·확신도·점수는 보존하며 사례 범위의 차이를 [Week 3 계획](../experiments/week3/README.md)에 명시한다. 평가 및 최종 진로 판단은 미완료다.

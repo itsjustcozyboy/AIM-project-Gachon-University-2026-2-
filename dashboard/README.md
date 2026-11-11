@@ -6,7 +6,7 @@
 - 가시적 status·progress는 체크리스트에서 자동 계산한다. UNAVAILABLE은 수정계획 분모에서 제외하되 원계획 달성도에 남긴다. 전부 완료되고 제약이 있으면 COMPLETE WITH CONSTRAINT. Week 2~4의 작업은 최소 마일스톤 초안이며 추후 확장한다.
 - hypotheses: id / career / hypothesis / score(null 또는 0~100) / confidence(null 또는 HIGH·MEDIUM·LOW) / status / evidenceCount / experimentCount.
 - baseline: id / metric / question / t0 / t1 (null 또는 1~10) / higherIsBetter.
-- experiments: 초기 빈 배열. 필드 정의는 experiments/README.md 참조.
+- experiments: 현재 3건의 계획 또는 진행 기록. 필드 정의는 experiments/README.md 참조. 공통 평가 중 JSON에 없는 점수·이유는 문서에 기록한다.
 
 ## 갱신 절차
 
@@ -29,7 +29,7 @@
 
 ## 최신 Week 2 상태
 
-`week2.status`는 COMPLETE WITH CONSTRAINT, `crossReview.status`는 COMPLETED다. 선정 ID는 W2-H1/W2-H3/W2-H4 3개이며 W2-H2는 DEFERRED다. `week2.agents`가 현재 비교 입력을 가리키고 기존 `agents`는 Week 1 결과를 보존한다. `experiments=[]`, 모든 experimentCount=0, TEST·DECIDE_AND_ACT는 NOT STARTED다. 후속 초안은 미채택 이력이며 실험 설계·실행은 현재 범위 밖이다. UI에는 현재 선택 수와 Week 2 완료/자료 제약을 표시한다.
+`week2.status`는 COMPLETE WITH CONSTRAINT, `crossReview.status`는 COMPLETED다. 선정 ID는 W2-H1/W2-H3/W2-H4 3개이며 W2-H2는 DEFERRED다. `week2.agents`가 현재 비교 입력을 가리키고 기존 `agents`는 Week 1 결과를 보존한다. 이후 Week 3 과제 3건을 등록했고 TEST는 진행 중이며 DECIDE_AND_ACT는 미착수다. 현재 범위는 [Week 3 기록](../experiments/week3/README.md)을 따른다.
 
 ## Careerfolio 화면 / 자동 공고
 

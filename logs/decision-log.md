@@ -71,3 +71,6 @@
 - Evidence: Personal Career Dataset v1.0, Week 2 Cross Review·landscape·skill matrix, 공개 Greenhouse Job Board API의 Figma·Anthropic 실제 응답.
 - Implementation: 서버가 개인 Dataset을 읽고 UI에 전달. 공개 공고를 8초 타임아웃으로 병렬 조회. 최초/수동/활성 화면 10분 갱신, 오류·마지막 수신 시점·부분 표본을 표시. 신입 여부는 키워드 참고이며 지원 자격 판정 아님.
 - Preservation: Week 1/2 보고서·가설 원본·Dataset·Baseline·Dashboard 상태 데이터 보존. 실험 0건, Week 3/4 미착수. 정적 프로젝트 그래픽은 경험의 시각화이며 실제 제품 화면으로 주장하지 않음.
+# 2026-11-11 — Week 3 과제 변경
+
+사용자 지시: PM의 MOIMLOG와 Product Strategy의 기존 K-뷰티는 과거 프로젝트 회고; HCI는 새 금융 앱 비교. 기존 미국 진출 제안·참여자 테스트 계획은 이전 기록으로 보존한다. 가설의 확신도와 점수는 변경하지 않는다. [상세](../experiments/week3/README.md).
